@@ -1,3 +1,21 @@
 {
-    
+    "hero": {
+        "title": "The Hero",
+        "subheading": "Explore our services and discover what we can offer.",
+    "buttons": [
+      { "label": "Learn More" },
+      { "label": "Contact Us" }
+    ],
+    "profileImages": [
+      "https://via.placeholder.com/150",
+      "https://via.placeholder.com/150",
+      "https://via.placeholder.com/150",
+      "https://via.placeholder.com/150"
+    ],
+    "rightImages": [
+      "https://via.placeholder.com/300x150",
+      "https://via.placeholder.com/300x150",
+      "https://via.placeholder.com/300x150"
+    ]
+    }
 }

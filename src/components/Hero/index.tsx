@@ -1,14 +1,18 @@
-import React from 'react'
-import Navbar from '../Navbar'
+import React from "react";
 
-const Hero = () => {
+const index = () => {
   return (
-    <>
-    <h1>heading</h1>
-    diva
-    <div> sad-p</div>
-    </>
-  )
-}
+    <div>
+      <div className="w-1/2">
+        <h1 className="font-grifter text-xl">Fluttering your Ideas into digital Reality</h1>
+        <ul className="flex flex-row gap-4">
+          <li className="list-disc">Innovative</li>
+          <li className="list-inside list-disc">Design</li>
+          <li className="list-inside list-disc">Develop</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
 
-export default Hero
+export default index;

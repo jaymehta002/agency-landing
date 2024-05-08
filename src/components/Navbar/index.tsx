@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react';
 
 function Navbar() {
@@ -8,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="hero-bg">
+    <nav className='hero-bg'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -27,13 +28,13 @@ function Navbar() {
               </a>
               <a
                 href="#"
-                className="text-gray-900 hover:text-blue-500  px-3 py-2 rounded-md text-sm font-medium"
+                className="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
               >
-                About
+                Why Us
               </a>
               <a
                 href="#"
-                className="text-gray-900 hover:text-blue-500  px-3 py-2 rounded-md text-sm font-medium"
+                className="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Services
               </a>
@@ -41,14 +42,26 @@ function Navbar() {
                 href="#"
                 className="text-gray-900 hover:text-blue-500  px-3 py-2 rounded-md text-sm font-medium"
               >
-                Contact
+                Projects
+              </a>
+              <a
+                href="#"
+                className="text-gray-900 hover:text-blue-500  px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Culture
+              </a>
+              <a
+                href="#"
+                className="text-gray-900 hover:text-blue-500  px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Contact Us
               </a>
             </div>
           </div>
 
           {/* Button */}
           <div className="hidden md:block">
-            <button className="nav-button hover:bg-indigo-700 text-white py-2 px-4 rounded">
+            <button className="nav-button hover:bg-blue-600 text-white py-3 px-4 rounded-lg">
               Book Free Consultation
             </button>
           </div>
