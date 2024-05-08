@@ -48,7 +48,7 @@ function Navbar() {
 
           {/* Button */}
           <div className="hidden md:block">
-            <button className="bg-indigo-500 hover:bg-indigo-700 text-white py-2 px-4 rounded">
+            <button className="nav-button hover:bg-indigo-700 text-white py-2 px-4 rounded">
               Book Free Consultation
             </button>
           </div>
