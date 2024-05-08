@@ -12,10 +12,10 @@
       "https://via.placeholder.com/150",
       "https://via.placeholder.com/150"
     ],
-    "rightImages": [
-      "https://via.placeholder.com/300x150",
-      "https://via.placeholder.com/300x150",
-      "https://via.placeholder.com/300x150"
+    "images":[
+        "/images/hero1.png",
+        "/images/hero2.png",
+        "/images/hero3.png"
     ]
     }
 }
