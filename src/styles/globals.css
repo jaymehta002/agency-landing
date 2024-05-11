@@ -8,8 +8,8 @@
 }
 
 /* background */
-.background-design{
-  background-color: #E7F8FC;
+.background-design {
+  background-color: #e7f8fc;
 }
 
 .font-grifter {
@@ -17,8 +17,28 @@
 }
 
 .nav-button {
-  background-color: #2F88FF;
+  background-color: #2f88ff;
 }
 
+/* Blob 3 */
 
+.hero-blob {
+  background: url("/images/heroblob.png") no-repeat;
+  position: absolute;
+  width: 224.82px;
+  height: 242px;
+  left: -50px;
+  top: 100px;
+  /* background: #819dff; */
+  /* border-radius: 10%  20% 50% 30% ; */
+}
 
+.hero-wave {
+  /* Waves */
+  background: url("/images/herowave.png") no-repeat;
+  position: absolute;
+  width: 267px;
+  height: 200px;
+  left: 554.19px;
+  top: 374.95px;
+}

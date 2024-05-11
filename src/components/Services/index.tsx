@@ -15,12 +15,12 @@ function Services() {
       </h2>
       <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6 items-center justify-center">
         <InfoBox
-          imgSrc="/images/services1.png"
+          imgSrc="/images/hero1.png"
           title="Startup & MVP"
           description="Turn your amazing idea into a ready-made application."
         />
         <InfoBox
-          imgSrc="/images/services2.png"
+          imgSrc="/images/hero1.png"
           title="Full-Cycle App Development"
           description="From idea to app store, we handle it all: features, fixes, & publishing.."
         />
