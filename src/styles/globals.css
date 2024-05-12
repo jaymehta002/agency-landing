@@ -42,3 +42,34 @@
   left: 554.19px;
   top: 374.95px;
 }
+
+.whyus-bg {
+  background-color: #ffab40;
+}
+
+.zigzag-1 {
+  position: relative;
+  background: url("/images/zigzag.png") no-repeat;
+  width: 150px;
+  height: 50px;
+  top: -20px;
+  left: 300px;
+}
+
+.zigzag-2 {
+  position: absolute;
+  background: url("/images/zigzag.png") no-repeat;
+  width: 150px;
+  height: 50px;
+  left: 200px;
+  bottom: -400px;
+  rotate: 45deg;
+}
+
+.footer-blob {
+  /* Blob 16 */
+  background: url("/images/footer-blob.png") no-repeat;
+  position: absolute;
+  width: 500px;
+  /* height: 500px; */
+}
