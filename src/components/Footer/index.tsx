@@ -7,12 +7,12 @@ const Footer = () => {
     {/* <div className='footer-blob object-contain'>
         <Image src='/images/footer-blob.png' className='h-20 w-20' alt='Footer Blob' height={500} width={500} />
     </div> */}
-    <footer className=" pt-20">
+    <footer className="pt-32  ">
       <div className="container mx-auto p-8">
         <div className="flex justify-center mb-4">
           <img src="/logo/logo.png" alt="Logo" className="h-12 w-12" />
         </div>
-        <div className="flex justify-center gap-4 mb-12">
+        <div className="flex flex-col md:flex-row justify-center gap-4 mb-12">
           <a href="#" className="text-gray-700 font-bold text-sm hover:text-gray-900 transition duration-300 ease-in-out mr-4">
             Home
           </a>

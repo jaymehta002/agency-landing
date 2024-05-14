@@ -22,7 +22,7 @@ const Index = () => {
        initial={{ opacity: 0, y: 50 }}
        animate={{ opacity: 1, y: 0 }}
        transition={{ duration: 0.8, delay: 0.3 }}
-       className="flex w-11/12 px-20 py-20 rounded-2xl whyus-bg justify-between"
+       className="grid grid-cols-2 md:grid-cols-4 gap-8 w-11/12 md:px-20 py-20 rounded-2xl whyus-bg justify-between"
      >
        <motion.div
          initial={{ opacity: 0, y: -50 }}
