@@ -1,8 +1,23 @@
 import React from "react";
 import InfoBox from "./InfoBox";
+import Image from "next/image";
 function Services() {
   return (
-    <div className="flex flex-col items-center justify-center space-y-8 py-8 w-full">
+    <div className="flex flex-col items-center justify-center space-y-8 py-8 mt-8 w-full">
+      <div>
+        <Image
+          width={38}
+          height={80}
+          src={"/images/spiral"}
+          alt="Spring pattern"
+        />
+        <Image
+          width={38}
+          height={80}
+          src={"/images/spring"}
+          alt="Spring pattern"
+        />
+      </div>
       <h1 className="font-grifter text-6xl font-bold text-center">
         Services We Provide
       </h1>

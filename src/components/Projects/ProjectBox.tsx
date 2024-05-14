@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface ProjectBoxProps {
@@ -17,14 +18,16 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
     <div className="bg-[#ACEBE2] p-8 w-96 flex flex-col items-start relative rounded-lg">
       <div className="flex w-full justify-between">
         <h1 className="text-4xl font-grifter font-bold mb-2 ">{title}</h1>
-        <button className="">
-          <Image
-            src="/images/arrow.png"
-            alt="Project open icon"
-            width={24}
-            height={24}
-          />
-        </button>
+        <Link href="/projects" passHref>
+          <button aria-label="View project">
+            <Image
+              src="/images/arrow.png"
+              alt="Project open icon"
+              width={24}
+              height={24}
+            />
+          </button>
+        </Link>
       </div>
       <p className=" text-base font-medium">{description}</p>
       <div className="relative w-full h-60">
