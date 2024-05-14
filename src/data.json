@@ -6,16 +6,23 @@
       { "label": "Learn More" },
       { "label": "Contact Us" }
     ],
-    "profileImages": [
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150"
-    ],
     "images":[
         "/images/hero1.png",
         "/images/hero2.png",
         "/images/hero3.png"
+    ],
+    "profile": [
+      "/images/clients/client1.png",
+      "/images/clients/client2.png",
+      "/images/clients/client3.png",
+      "/images/clients/client4.png"
+    ],
+    "clients": [
+      "/images/clients/contract.png",
+      "/images/clients/boom.png",
+      "/images/clients/techland.png",
+      "/images/clients/wolf.png",
+      "/images/clients/tossbet.png"
     ]
     }
 }

@@ -8,8 +8,8 @@
 }
 
 /* background */
-.background-design{
-  background-color: #E7F8FC;
+.background-design {
+  background-color: #e7f8fc;
 }
 
 .font-grifter {
@@ -17,8 +17,60 @@
 }
 
 .nav-button {
-  background-color: #2F88FF;
+  background-color: #2f88ff;
 }
 
+/* Blob 3 */
 
+.hero-blob {
+  background: url("/images/heroblob.png") no-repeat;
+  position: absolute;
+  width: 224.82px;
+  height: 242px;
+  left: -50px;
+  top: 100px;
+  z-index: 0;
+  /* background: #819dff; */
+  /* border-radius: 10%  20% 50% 30% ; */
+}
 
+.hero-wave {
+  /* Waves */
+  background: url("/images/herowave.png") no-repeat;
+  position: absolute;
+  width: 267px;
+  height: 200px;
+  left: 554.19px;
+  top: 374.95px;
+}
+
+.whyus-bg {
+  background-color: #ffab40;
+}
+
+.zigzag-1 {
+  position: relative;
+  background: url("/images/zigzag.png") no-repeat;
+  width: 150px;
+  height: 50px;
+  top: -20px;
+  left: 300px;
+}
+
+.zigzag-2 {
+  position: absolute;
+  background: url("/images/zigzag.png") no-repeat;
+  width: 150px;
+  height: 50px;
+  left: 200px;
+  bottom: -400px;
+  rotate: 45deg;
+}
+
+.footer-blob {
+  /* Blob 16 */
+  background: url("/images/footer-blob.png") no-repeat;
+  position: absolute;
+  width: 500px;
+  /* height: 500px; */
+}
