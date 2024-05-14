@@ -29,6 +29,7 @@
   height: 242px;
   left: -50px;
   top: 100px;
+  z-index: 0;
   /* background: #819dff; */
   /* border-radius: 10%  20% 50% 30% ; */
 }

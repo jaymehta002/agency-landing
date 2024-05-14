@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 const Index = () => {
  return (
    <div className="flex flex-col justify-center items-center min-h-screen">
-    <div className='zigzag-1'></div>
-    <div className='zigzag-2'></div>
+    {/* <div className='zigzag-1'></div> */}
+    {/* <div className='zigzag-2'></div> */}
      <motion.div
        initial={{ opacity: 0, y: -50 }}
        animate={{ opacity: 1, y: 0 }}

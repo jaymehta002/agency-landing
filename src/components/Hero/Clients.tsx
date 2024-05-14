@@ -6,7 +6,7 @@ type Props = {
 
 const Clients = (props: Props) => {
   return (
-    <>
+    <div className='md:hidden sm:hidden xl:block 2xl:block'>
       <h2 className="text-3xl text-gray-400 text-center mb-6">Our Trusted Clients</h2>
       <div className="flex justify-between flex-wrap">
         <div className="m-4 flex items-center">
@@ -30,7 +30,7 @@ const Clients = (props: Props) => {
           <p className="text-gray-400 font-bold text-center">TossnBet</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
