@@ -9,18 +9,18 @@ interface InfoBoxProps {
 
 const InfoBox: React.FC<InfoBoxProps> = ({ title, description, imgSrc }) => {
   return (
-    <div className="flex flex-col font-grifter items-start bg-gray-200 rounded-lg shadow p-6 w-80 space-y-4">
-      <div className="relative w-full h-32">
+    <div className="flex flex-col items-start bg-gray-200 lg:w-[558px]  rounded-lg shadow p-6 w-96 h-96 space-y-4">
+      <div className="relative w-full h-32 mb-4">
         <Image
-          width={64}
-          height={64}
+          width={120}
+          height={120}
           src={imgSrc}
           alt={title}
           className="rounded-lg"
         />
       </div>
-      <h3 className="font-grifter text-xl font-semibold">{title}</h3>
-      <p className="font-inter text-sm">{description}</p>
+      <h3 className="font-grifter text-3xl font-semibold">{title}</h3>
+      <p className="font-inter font-medium text-2xl">{description}</p>
     </div>
   );
 };
