@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
           We believe in the power of technology to empower businesses. Explore
           our latest projects and see how we have helped our clients.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center justify-center space-y-4 lg:space-y-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center items-center justify-center space-y-4 lg:space-y-0">
           <ProjectBox
             imageUrl="/images/project.png"
             title="Project Name"

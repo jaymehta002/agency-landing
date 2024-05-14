@@ -1,9 +1,10 @@
 'use client'
 import { motion } from "framer-motion";
+import { CiFacebook, CiInstagram, CiLinkedin, CiTwitter, CiYoutube } from "react-icons/ci";
 
 const ContactPage = () => {
   return (
-    <div className="h-screen flex flex-col justify-center items-center">
+    <div className="mt-60 md:px-40 h-screen flex flex-col justify-center items-center">
       {/* Title and Description */}
       <div className="text-center mb-8">
         <h1 className="font-grifter text-4xl md:text-6xl mb-4">Contact Us</h1>
@@ -18,7 +19,7 @@ const ContactPage = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-        >
+        > 
           <motion.form
             className="p-6"
             initial={{ opacity: 0 }}
@@ -56,7 +57,7 @@ const ContactPage = () => {
 
         {/* Illustration */}
         <motion.div
-          className="w-full md:w-1/2 px-4"
+          className="w-full md:w-1/2 px-4 mb-4 md:mb-0"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
@@ -73,14 +74,14 @@ const ContactPage = () => {
       </div>
 
       {/* Social Profiles */}
-      <div className="whyus-bg flex flex-col items-center justify-center w-full md:w-11/12 px-4 h-48 rounded-2xl mt-12">
+      <div className="whyus-bg mb-20 flex flex-col md:flex-row justify-around items-center w-11/12 px-6 md:px-20 py-20 h-80 rounded-2xl mt-12">
         <h1 className="font-grifter text-4xl md:text-6xl mb-4">Social Profiles</h1>
         <div className="flex flex-wrap justify-center">
-          <p className="mx-2">Facebook</p>
-          <p className="mx-2">Twitter</p>
-          <p className="mx-2">LinkedIn</p>
-          <p className="mx-2">Instagram</p>
-          <p className="mx-2">YouTube</p>
+          <a href="#" className="mx-2"><CiFacebook className="h-8 w-8" /> </a>
+          <a href="#" className="mx-2"><CiTwitter  className="h-8 w-8"/> </a>
+          <a href="#" className="mx-2"><CiInstagram className="h-8 w-8" /> </a>
+          <a href="#" className="mx-2"><CiLinkedin className="h-8 w-8" /></a>
+          <a href="#" className="mx-2"><CiYoutube  className="h-8 w-8"/></a>
         </div>
       </div>
     </div>
