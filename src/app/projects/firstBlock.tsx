@@ -28,7 +28,6 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
             alt="Google Play Store"
             width={192}
             height={64}
-            layout="intrinsic"
           />
         </div>
       </div>
@@ -37,7 +36,6 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
         <Image
           src={phoneImgSrc}
           alt="Phone Screenshot"
-          layout="intrinsic"
           width={400}
           height={800}
           className="w-full max-w-md"

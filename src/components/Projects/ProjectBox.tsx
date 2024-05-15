@@ -34,12 +34,12 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         </Link>
       </div>
       <p className=" text-base font-medium">{description}</p>
-      <div className="relative w-full h-60">
+      <div className="flex w-full h-60 items-center justify-center">
         <Image
+          width={355}
+          height={200}
           src={imageUrl}
           alt="Descriptive visual"
-          layout="fill"
-          objectFit="contain"
         />
       </div>
     </div>

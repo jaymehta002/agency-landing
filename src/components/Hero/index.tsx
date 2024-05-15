@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import data from "../../data.json";
@@ -7,11 +7,21 @@ import Clients from "./Clients";
 const HeroPage = () => {
   return (
     <>
-      <div className="z-10">
-      <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5, delay:0.2}} className="hero-blob z-10"></motion.div>
-      <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5, delay:0.2}}  className="md:hero-wave hidden z-10"></motion.div>
+      <div className="relative z-0">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="hero-blob z-10"
+        ></motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="md:hero-wave hidden z-10"
+        ></motion.div>
       </div>
-      <div className="md:px-28 mx-4 z-100">
+      <div className="md:px-28 mx-4 relative z-100">
         <div className="container md:text-left text-center z-100 mx-auto flex flex-col md:flex-row items-center justify-between">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -21,7 +31,7 @@ const HeroPage = () => {
           >
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0}}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-6xl z-100 max-w-1/2 font-grifter font-bold text-gray-800 mb-4"
             >
@@ -98,7 +108,13 @@ const HeroPage = () => {
             transition={{ duration: 0.5 }}
             className="2xl:block xl:block hidden"
           >
-            <Image src="/images/bigScreen.png" className="" alt="hero" height={600} width={600} />
+            <Image
+              src="/images/bigScreen.png"
+              className=""
+              alt="hero"
+              height={600}
+              width={600}
+            />
           </motion.div>
 
           <motion.div
@@ -108,22 +124,32 @@ const HeroPage = () => {
             className="2xl:hidden xl:hidden z-20 grid mx-auto place-items-center justify-center grid-cols-1 gap-4"
           >
             <div className="flex gap-4">
-              <Image height={1080} width={1080}
+              <Image
+                height={1080}
+                width={1080}
                 src={data.hero.images[0]}
                 alt="Image 1"
                 className="md:w-1/2 w-32"
               />
-              <Image height={1080} width={1080}
+              <Image
+                height={1080}
+                width={1080}
                 src={data.hero.images[1]}
                 alt="Image 2"
                 className="md:w-1/2 w-32"
               />
             </div>
-            <Image height={1080} width={1080} src={data.hero.images[2]} alt="Image 3" className="md:w-full w-64" />
+            <Image
+              height={1080}
+              width={1080}
+              src={data.hero.images[2]}
+              alt="Image 3"
+              className="md:w-full w-64"
+            />
           </motion.div>
         </div>
         <div className="xl:block 2xl:block hidden">
-        <Clients data={data.hero.clients} />
+          <Clients data={data.hero.clients} />
         </div>
       </div>
     </>
