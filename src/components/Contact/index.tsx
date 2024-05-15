@@ -1,7 +1,7 @@
 'use client'
 import { motion } from "framer-motion";
 import { CiFacebook, CiInstagram, CiLinkedin, CiTwitter, CiYoutube } from "react-icons/ci";
-
+import data from "../../data.json";
 const ContactPage = () => {
   return (
     <section id="contact" className="mt-60 md:px-40 h-screen flex flex-col justify-center items-center">
@@ -77,11 +77,11 @@ const ContactPage = () => {
       <div className="whyus-bg flex flex-col md:flex-row justify-around items-center w-11/12 px-6 md:px-20 py-20 h-80 rounded-2xl mt-12">
         <h1 className="font-grifter text-4xl md:text-6xl mb-4">Social Profiles</h1>
         <div className="flex flex-wrap justify-center">
-          <a href="#" className="mx-2"><CiFacebook className="h-8 w-8" /> </a>
-          <a href="#" className="mx-2"><CiTwitter  className="h-8 w-8"/> </a>
-          <a href="#" className="mx-2"><CiInstagram className="h-8 w-8" /> </a>
-          <a href="#" className="mx-2"><CiLinkedin className="h-8 w-8" /></a>
-          <a href="#" className="mx-2"><CiYoutube  className="h-8 w-8"/></a>
+          <a href={data.facebook} className="mx-2"><CiFacebook className="h-8 w-8" /> </a>
+          <a href={data.twitter} className="mx-2"><CiTwitter  className="h-8 w-8"/> </a>
+          <a href={data.instagram} className="mx-2"><CiInstagram className="h-8 w-8" /> </a>
+          <a href={data.linkedin} className="mx-2"><CiLinkedin className="h-8 w-8" /></a>
+          <a href={data.youtube} className="mx-2"><CiYoutube  className="h-8 w-8"/></a>
         </div>
       </div>
     </section>

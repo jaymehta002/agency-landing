@@ -57,7 +57,7 @@ const HeroPage = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.8 }}
-              className="flex relative md:left-0 left-10 mt-4"
+              className="flex relative ml-6 md:ml-0 left-0 mt-4"
             >
               <Image
                 src={data.hero.profile[0]}
