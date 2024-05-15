@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import { motion } from 'framer-motion';
-import data from '../../Data.json';
+import data from '../../data.json';
 import Image from 'next/image';
 
 const Index = () => {

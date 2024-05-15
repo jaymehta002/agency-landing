@@ -7,8 +7,8 @@ const Index = () => {
    <div className="flex flex-col justify-center items-center min-h-screen">
     <div>
     <div className='blob-1'></div>
-      <div className='zigzag-1'></div>  
-      <div className="bg-[url('/images/blob.png')} absolute h-64 w-64 z-100"></div>
+      <div className="bg-[url('/images/zigzag.png')] md:block hidden  w-32 md:right-20  h-16 bg-no-repeat absolute"></div>  
+      {/* <div className="bg-[url('/images/blob.png')} absolute h-64 w-64 z-100"></div> */}
     </div>
     <div className='zigzag-2'></div>
      <motion.div

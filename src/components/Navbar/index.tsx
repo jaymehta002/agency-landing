@@ -21,7 +21,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/"><Image height={1080} width={1080} className="h-12" src="/logo/logo.png" alt="Logo" /></a>
+            <a href="/"><Image height={1080} width={1080} className="h-12 w-12" src="/logo/logo.png" alt="Logo" /></a>
           </div>
 
           {/* Navigation */}
