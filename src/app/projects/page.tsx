@@ -4,6 +4,8 @@ import FirstBlock from "./firstBlock";
 import SummaryPage from "./SummaryPage";
 import Challenges from "./Challenges";
 import TechnologiesUsed from "./Technologies";
+import Testimonial from "./Testimonial";
+import Footer from "@/components/Footer";
 interface Item {
   text: string;
   img: string;
@@ -57,6 +59,12 @@ const ProjectPage: React.FC<ProjectProps> = () => {
       />
       <Challenges challenges={challenges} features={features} />
       <TechnologiesUsed />
+      <Testimonial
+        name="Yato"
+        message="We have been working with this agency for a long, and these guys
+              have never let us down."
+      />
+      <Footer />
     </div>
   );
 };
