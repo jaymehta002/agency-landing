@@ -4,7 +4,6 @@ import data from "../../data.json";
 
 const Projects: React.FC = () => {
   return (
-    console.log(data.projects),
     (
       <section id="projects">
         <div className="flex  z-10 flex-col items-center justify-center space-y-8 py-8 w-full">

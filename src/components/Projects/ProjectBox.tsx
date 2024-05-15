@@ -18,7 +18,6 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   description,
   imageUrl,
 }) => {
-  console.log(key);
   return (
     <div className="bg-[#ACEBE2] p-8 w-11/12 flex flex-col justify-center items-start rounded-lg">
       <div className="flex w-full justify-between">
