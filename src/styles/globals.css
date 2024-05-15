@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @font-face {
   font-family: "grifter";
   src: url("/fonts/grifterbold.otf") format("opentype");
@@ -72,10 +77,14 @@
   }
 }
 
-.whyus-blog-2{
+.blob-2{
+  position: absolute;
   background: url("/images/blob.png") no-repeat;  
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 240px;
+  left: 86.8%;
+  top: 120%;
+  z-index: 0;
 }
 
 .zigzag-2 {

@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img className="h-12" src="/logo/logo.png" alt="Logo" />
+            <a href="/"><Image height={1080} width={1080} className="h-12 w-12" src="/logo/logo.png" alt="Logo" /></a>
           </div>
 
           {/* Navigation */}
@@ -32,37 +33,37 @@ function Navbar() {
               className="ml-10 flex items-baseline space-x-4"
             >
               <a
-                href="#"
+                href="/ "
                 className="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
               </a>
               <a
-                href="#"
+                href="#whyus"
                 className="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Why Us
               </a>
               <a
-                href="#"
+                href="#services"
                 className="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Services
               </a>
               <a
-                href="#"
+                href="#projects"
                 className="text-gray-900 hover:text-blue-500  px-3 py-2 rounded-md text-sm font-medium"
               >
                 Projects
               </a>
               <a
-                href="#"
+                href="#culture"
                 className="text-gray-900 hover:text-blue-500  px-3 py-2 rounded-md text-sm font-medium"
               >
                 Culture
               </a>
               <a
-                href="#"
+                href="#contact"
                 className="text-gray-900 hover:text-blue-500  px-3 py-2 rounded-md text-sm font-medium"
               >
                 Contact Us
@@ -142,37 +143,37 @@ function Navbar() {
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
           <a
-            href="#"
+            href="#home"
             className="text-gray-900 hover:text-blue-500  block px-3 py-2  rounded-md text-base font-medium"
           >
             Home
           </a>
           <a
-            href="#"
+            href="#whyus"
             className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
           >
             Why Us
           </a>
           <a
-            href="#"
+            href="#serices"
             className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
           >
             Services
           </a>
           <a
-            href="#"
+            href="#projects"
             className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
           >
             Projects
           </a>
           <a
-            href="#"
+            href="#culture"
             className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
           >
             Culture
           </a>
           <a
-            href="#"
+            href="#contact"
             className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
           >
             Contact Us
