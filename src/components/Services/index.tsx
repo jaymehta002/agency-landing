@@ -8,13 +8,13 @@ function Services() {
         <Image
           width={38}
           height={80}
-          src={"/images/spiral"}
+          src={"/images/spiral.png"}
           alt="Spring pattern"
         />
         <Image
           width={38}
           height={80}
-          src={"/images/spring"}
+          src={"/images/spring.png"}
           alt="Spring pattern"
         />
       </div>

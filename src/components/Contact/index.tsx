@@ -74,7 +74,7 @@ const ContactPage = () => {
       </div>
 
       {/* Social Profiles */}
-      <div className="whyus-bg mb-20 flex flex-col md:flex-row justify-around items-center w-11/12 px-6 md:px-20 py-20 h-80 rounded-2xl mt-12">
+      <div className="whyus-bg flex flex-col md:flex-row justify-around items-center w-11/12 px-6 md:px-20 py-20 h-80 rounded-2xl mt-12">
         <h1 className="font-grifter text-4xl md:text-6xl mb-4">Social Profiles</h1>
         <div className="flex flex-wrap justify-center">
           <a href="#" className="mx-2"><CiFacebook className="h-8 w-8" /> </a>

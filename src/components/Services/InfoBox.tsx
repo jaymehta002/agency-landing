@@ -9,7 +9,7 @@ interface InfoBoxProps {
 
 const InfoBox: React.FC<InfoBoxProps> = ({ title, description, imgSrc }) => {
   return (
-    <div className="flex flex-col items-start bg-gray-200 lg:w-[558px]  rounded-lg shadow p-6 w-11/12 h-full space-y-4">
+    <div className="flex flex-col items-start bg-gray-200 mx-4  rounded-lg shadow p-6 w-11/12 h-full space-y-4">
       <div className="relative w-full h-32 mb-4">
         <Image
           width={120}
