@@ -55,7 +55,7 @@ const SummaryPage: React.FC<SummaryPageProps> = ({
           </p>
         </div>
         <div className="bg-[#ACEBE2] p-8 flex flex-col items-start justify-between rounded-lg min-h-[300px]">
-          <div className="w-full h-24 relative">
+          <div className="w-full h-full  relative">
             <Image
               src={projectImage}
               alt="Descriptive visual"

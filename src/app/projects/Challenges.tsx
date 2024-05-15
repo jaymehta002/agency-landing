@@ -11,51 +11,42 @@ interface ChallengesProps {
   features: Item[];
 }
 
-const challenges: Item[] = [
-  { text: "Challenge 1", img: "/path/to/challenge1.png" },
-  { text: "Challenge 2", img: "/path/to/challenge2.png" },
-  { text: "Challenge 3", img: "/path/to/challenge3.png" },
-];
-
-const features: Item[] = [
-  { text: "Feature 1", img: "/path/to/feature1.png" },
-  { text: "Feature 2", img: "/path/to/feature2.png" },
-  { text: "Feature 3", img: "/path/to/feature3.png" },
-];
-
 const Challenges: React.FC<ChallengesProps> = ({ challenges, features }) => {
   return (
-    <div className="flex flex-col md:flex-row h-[90vh] p-4">
-      <div className="w-full md:w-3/4 p-4">
-        <h2 className="text-2xl mb-4">Challenges</h2>
-        <ul className="list-none p-0">
-          {challenges.map((challenge, index) => (
-            <li key={index} className="flex items-center mb-2">
+    <div className="flex flex-col lg:flex-row items-stretch justify-between max-w-7xl mx-auto gap-8 space-y-8 lg:space-y-0 lg:space-x-0 px-4 py-12">
+      <div className="w-full flex-grow flex flex-col rounded-lg bg-[#ACEBE2] p-12 lg:w-[60%]">
+        <h1 className="text-4xl font-grifter font-bold text-black p-4">
+          Challenges
+        </h1>
+        <ul className="grid grid-cols-1 gap-4 p-4">
+          {challenges.map((challenge) => (
+            <li key={challenge.text} className="flex items-center space-x-2 ">
               <Image
                 src={challenge.img}
                 alt={challenge.text}
-                width={20}
-                height={20}
-                className="mr-2"
+                width={72}
+                height={72}
               />
-              {challenge.text}
+              <span>{challenge.text}</span>
             </li>
           ))}
         </ul>
       </div>
-      <div className="w-full md:w-1/4 p-4">
-        <h2 className="text-2xl mb-4">Features</h2>
-        <ul className="list-none p-0">
-          {features.map((feature, index) => (
-            <li key={index} className="flex items-center mb-2">
+      <div className="w-full flex-grow flex flex-col rounded-lg bg-[#ACEBE2] p-12 lg:w-[40%]">
+        <h1 className="text-4xl font-grifter font-bold text-black p-4">
+          Features
+        </h1>
+        <ul className="grid grid-cols-1 gap-4 p-4">
+          {features.map((feature) => (
+            <li key={feature.text} className="flex items-start space-x-2">
+              {" "}
               <Image
                 src={feature.img}
                 alt={feature.text}
-                width={20}
-                height={20}
-                className="mr-2"
+                width={24}
+                height={24}
               />
-              {feature.text}
+              <span className="align-top">{feature.text}</span>{" "}
             </li>
           ))}
         </ul>
@@ -64,9 +55,4 @@ const Challenges: React.FC<ChallengesProps> = ({ challenges, features }) => {
   );
 };
 
-// Example usage
-const App: React.FC = () => {
-  return <Challenges challenges={challenges} features={features} />;
-};
-
-export default App;
+export default Challenges;
