@@ -1,16 +1,9 @@
 {
-    "hero": {
-        "title": "The Hero",
-        "subheading": "Explore our services and discover what we can offer.",
-    "buttons": [
-      { "label": "Learn More" },
-      { "label": "Contact Us" }
-    ],
-    "images":[
-        "/images/hero1.png",
-        "/images/hero2.png",
-        "/images/hero3.png"
-    ],
+  "hero": {
+    "title": "The Hero",
+    "subheading": "Explore our services and discover what we can offer.",
+    "buttons": [{ "label": "Learn More" }, { "label": "Contact Us" }],
+    "images": ["/images/hero1.png", "/images/hero2.png", "/images/hero3.png"],
     "profile": [
       "/images/clients/client1.png",
       "/images/clients/client2.png",
@@ -24,212 +17,211 @@
       "/images/clients/wolf.png",
       "/images/clients/tossbet.png"
     ]
+  },
+
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "title": "CEO",
+      "image": "/images/testimonials/avatar.png",
+      "company": "Company",
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
     },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "title": "CEO",
+      "image": "/images/testimonials/avatar.png",
+      "company": "Company",
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "title": "CEO",
+      "image": "/images/testimonials/avatar.png",
+      "company": "Company",
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
+    },
+    {
+      "id": 4,
+      "name": "Jane Doe",
+      "title": "CEO",
+      "image": "/images/testimonials/avatar.png",
+      "company": "Company",
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
+    },
+    {
+      "id": 5,
+      "name": "John Doe",
+      "title": "CEO",
+      "image": "/images/testimonials/avatar.png",
+      "company": "Company",
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
+    },
+    {
+      "id": 6,
+      "name": "Jane Doe",
+      "title": "CEO",
+      "image": "/images/testimonials/avatar.png",
+      "company": "Company",
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
+    }
+  ],
 
-    "testimonials":[
-      {
-        "id": 1,
-        "name": "John Doe",
-        "title": "CEO",
-        "image": "/images/testimonials/avatar.png",
-        "company": "Company",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
-      },
-      {
-        "id": 2,
-        "name": "Jane Doe",
-        "title": "CEO",
-        "image": "/images/testimonials/avatar.png",
-        "company": "Company",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
-      },
-      {
-        "id": 3,
-        "name": "John Doe",
-        "title": "CEO",
-        "image": "/images/testimonials/avatar.png",
-        "company": "Company",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
-      },
-      {
-        "id": 4,
-        "name": "Jane Doe",
-        "title": "CEO",
-        "image": "/images/testimonials/avatar.png",
-        "company": "Company",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
-      },
-      {
-        "id": 5,
-        "name": "John Doe",
-        "title": "CEO",
-        "image": "/images/testimonials/avatar.png",
-        "company": "Company",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
-      },
-      {
-        "id": 6,
-        "name": "Jane Doe",
-        "title": "CEO",
-        "image": "/images/testimonials/avatar.png",
-        "company": "Company",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget"
-      }
-    ],
-
-
-    "projects": [
-      {
-        "id":1,
-        "title": "Project 1",
-        "image": "/images/projects/project.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-        "roles": [ "UI/UX Design", "Frontend Development", "Backend Development" ],
-        "technologies": [ "React", "Node", "MongoDB" ],
-        "thumbnailImage": "/images/projects/phone.png",
-        "challanges" : [
-          {
-            "img": "/images/projects/challange1.png",
-            "text": "Challange 1"
-          },
-          {
-            "img": "/images/projects/challange2.png",
-            "text": "Challange 2"
-          },
-          {
-            "img": "/images/projects/challange3.png",
-            "text": "Challange 3"
-          }
-        ],
-        "features": [
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 1"
-          },
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 2"
-          },
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 3"
-          }
-        ]
-      },
-      {
-        "id":2,
-        "title": "Project 1",
-        "image": "/images/projects/project.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-        "roles": [ "UI/UX Design", "Frontend Development", "Backend Development" ],
-        "technologies": [ "React", "Node", "MongoDB" ],
-        "thumbnailImage": "/images/projects/phone.png",
-        "challanges" : [
-          {
-            "img": "/images/projects/challange1.png",
-            "text": "Challange 1"
-          },
-          {
-            "img": "/images/projects/challange2.png",
-            "text": "Challange 2"
-          },
-          {
-            "img": "/images/projects/challange3.png",
-            "text": "Challange 3"
-          }
-        ],
-        "features": [
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 1"
-          },
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 2"
-          },
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 3"
-          }
-        ]
-      },
-      {
-        "id":3,
-        "title": "Project 3",
-        "image": "/images/projects/project.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-        "roles": [ "UI/UX Design", "Frontend Development", "Backend Development" ],
-        "technologies": [ "React", "Node", "MongoDB" ],
-        "thumbnailImage": "/images/projects/phone.png",
-        "challanges" : [
-          {
-            "img": "/images/projects/challange1.png",
-            "text": "Challange 1"
-          },
-          {
-            "img": "/images/projects/challange2.png",
-            "text": "Challange 2"
-          },
-          {
-            "img": "/images/projects/challange3.png",
-            "text": "Challange 3"
-          }
-        ],
-        "features": [
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 1"
-          },
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 2"
-          },
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 3"
-          }
-        ]
-      },
-      {
-        "id":4,
-        "title": "Project 4",
-        "image": "/images/projects/project.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-        "roles": [ "UI/UX Design", "Frontend Development", "Backend Development" ],
-        "technologies": [ "React", "Node", "MongoDB" ],
-        "thumbnailImage": "/images/projects/phone.png",
-        "challanges" : [
-          {
-            "img": "/images/projects/challange1.png",
-            "text": "Challange 1"
-          },
-          {
-            "img": "/images/projects/challange2.png",
-            "text": "Challange 2"
-          },
-          {
-            "img": "/images/projects/challange3.png",
-            "text": "Challange 3"
-          }
-        ],
-        "features": [
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 1"
-          },
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 2"
-          },
-          {
-            "img": "/images/projects/tick.png",
-            "text": "Feature 3"
-          }
-        ]
-      }
-    ]
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "image": "/images/projects/project.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
+      "technologies": ["React", "Node", "MongoDB"],
+      "thumbnailImage": "/images/phone.png",
+      "challanges": [
+        {
+          "img": "/images/projects/challange1.png",
+          "text": "Challange 1"
+        },
+        {
+          "img": "/images/projects/challange2.png",
+          "text": "Challange 2"
+        },
+        {
+          "img": "/images/projects/challange3.png",
+          "text": "Challange 3"
+        }
+      ],
+      "features": [
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 1"
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 2"
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "image": "/images/projects/project.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
+      "technologies": ["React", "Node", "MongoDB"],
+      "thumbnailImage": "/images/phone.png",
+      "challanges": [
+        {
+          "img": "/images/projects/challange1.png",
+          "text": "Challange 1"
+        },
+        {
+          "img": "/images/projects/challange2.png",
+          "text": "Challange 2"
+        },
+        {
+          "img": "/images/projects/challange3.png",
+          "text": "Challange 3"
+        }
+      ],
+      "features": [
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 1"
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 2"
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Project 3",
+      "image": "/images/projects/project.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
+      "technologies": ["React", "Node", "MongoDB"],
+      "thumbnailImage": "/images/phone.png",
+      "challanges": [
+        {
+          "img": "/images/projects/challange1.png",
+          "text": "Challange 1"
+        },
+        {
+          "img": "/images/projects/challange2.png",
+          "text": "Challange 2"
+        },
+        {
+          "img": "/images/projects/challange3.png",
+          "text": "Challange 3"
+        }
+      ],
+      "features": [
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 1"
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 2"
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Project 4",
+      "image": "/images/projects/project.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
+      "technologies": ["React", "Node", "MongoDB"],
+      "thumbnailImage": "/images/phone.png",
+      "challanges": [
+        {
+          "img": "/images/projects/challange1.png",
+          "text": "Challange 1"
+        },
+        {
+          "img": "/images/projects/challange2.png",
+          "text": "Challange 2"
+        },
+        {
+          "img": "/images/projects/challange3.png",
+          "text": "Challange 3"
+        }
+      ],
+      "features": [
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 1"
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 2"
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Feature 3"
+        }
+      ]
+    }
+  ]
 }

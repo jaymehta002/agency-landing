@@ -40,6 +40,7 @@ const ProjectPage: React.FC<ProjectProps> = () => {
     { text: "Offline mode and cloud synchronization", img: "/images/tick.png" },
     { text: "Lots of custom user preferences", img: "/images/tick.png" },
   ];
+  const technologies: string[] = ["React", "Node", "MongoDB", "Express"];
   return (
     <div className="bg-[#E7F8FC]">
       <Navbar />
@@ -58,7 +59,7 @@ const ProjectPage: React.FC<ProjectProps> = () => {
         projectImage="/images/phone.png"
       />
       <Challenges challenges={challenges} features={features} />
-      <TechnologiesUsed />
+      <TechnologiesUsed technologies={technologies} />
       <Testimonial
         name="Yato"
         message="We have been working with this agency for a long, and these guys
