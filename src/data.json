@@ -87,15 +87,15 @@
       "thumbnailImage": "/images/phone.png",
       "challanges": [
         {
-          "img": "/images/projects/challange1.png",
+          "img": "/images/projects/challenge1.png",
           "text": "Challange 1"
         },
         {
-          "img": "/images/projects/challange2.png",
+          "img": "/images/projects/challenge2.png",
           "text": "Challange 2"
         },
         {
-          "img": "/images/projects/challange3.png",
+          "img": "/images/projects/challenge3.png",
           "text": "Challange 3"
         }
       ],

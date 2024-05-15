@@ -7,7 +7,7 @@ const Footer = () => {
       {/* <div className='footer-blob object-contain'>
           <Image src='/images/footer-blob.png' className='h-20 w-20' alt='Footer Blob' height={500} width={500} />
       </div> */}
-      <footer className="mt-64">
+      <footer>
         <div className="container mx-auto p-8">
           <div className="flex justify-center mb-4">
             <Image height={1080} width={1080} src="/logo/logo.png" alt="Logo" className="h-12 w-12" />

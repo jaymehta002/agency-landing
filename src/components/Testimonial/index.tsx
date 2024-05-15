@@ -13,7 +13,7 @@ const Index = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Testimonial Boxes */}
         {data.testimonials.map((testimonial, index) => (
-          <motion.div
+          <motion.div 
             key={index}
             className="bg-gray-100 p-6 rounded-lg"
             whileHover={{ scale: 1.05, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.1)', transition: { duration: 0.3 } }}
