@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
   font-family: "grifter";
   src: url("/fonts/grifterbold.otf") format("opentype");
@@ -29,7 +30,6 @@
   height: 242px;
   left: -50px;
   top: 100px;
-  z-index: 0;
   /* background: #819dff; */
   /* border-radius: 10%  20% 50% 30% ; */
 }
@@ -38,10 +38,19 @@
   /* Waves */
   background: url("/images/herowave.png") no-repeat;
   position: absolute;
-  width: 267px;
+  width: 130px;
   height: 200px;
-  left: 554.19px;
-  top: 374.95px;
+  /* left: 554.19px; */
+  right: 50%;
+  /* top: 374.95px; */
+  top: 50%;
+}
+
+@media (max-width: 768px) {
+  .hero-wave {
+    top: 40%;
+    left: 60%
+  }
 }
 
 .whyus-bg {
@@ -51,10 +60,22 @@
 .zigzag-1 {
   position: relative;
   background: url("/images/zigzag.png") no-repeat;
-  width: 150px;
+   width: 150px;
   height: 50px;
   top: -20px;
-  left: 300px;
+  left: 300px; 
+}
+
+@media (max-width: 768px) {
+  .zigzag-1 {
+    left:60%;
+  }
+}
+
+.whyus-blog-2{
+  background: url("/images/blob.png") no-repeat;  
+  width: 500px;
+  height: 500px;
 }
 
 .zigzag-2 {
@@ -65,6 +86,16 @@
   left: 200px;
   bottom: -400px;
   rotate: 45deg;
+}
+
+@media (max-width: 1280px) {
+  .zigzag-2 {
+    display: none;
+  }
+
+  .zigzag-2 {
+    display: none;
+  }
 }
 
 .footer-blob {

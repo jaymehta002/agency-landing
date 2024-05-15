@@ -76,7 +76,7 @@ function Navbar() {
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="nav-button hover:bg-blue-600 text-white py-3 px-4 rounded-lg"
+              className="nav-button hover:bg-blue-600 text-white py-3 px-4 rounded-md"
             >
               Book Free Consultation
             </motion.button>
@@ -140,10 +140,10 @@ function Navbar() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6 }}
       >
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 text-center">
           <a
             href="#"
-            className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
+            className="text-gray-900 hover:text-blue-500  block px-3 py-2  rounded-md text-base font-medium"
           >
             Home
           </a>
@@ -151,7 +151,7 @@ function Navbar() {
             href="#"
             className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
           >
-            About
+            Why Us
           </a>
           <a
             href="#"
@@ -163,16 +163,28 @@ function Navbar() {
             href="#"
             className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
           >
-            Contact
+            Projects
+          </a>
+          <a
+            href="#"
+            className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
+          >
+            Culture
+          </a>
+          <a
+            href="#"
+            className="text-gray-900 hover:text-blue-500  block px-3 py-2 rounded-md text-base font-medium"
+          >
+            Contact Us
           </a>
         </div>
-        <div className="pt-4 pb-3 border-t border-gray-700">
+        <div className=" pb-3 flex flex-col items-center justify-center">
           <motion.button
-            className="block w-full bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded"
+            className="block w-11/12 bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Button
+            Book Free Consultation
           </motion.button>
         </div>
       </motion.div>

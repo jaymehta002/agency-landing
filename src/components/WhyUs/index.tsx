@@ -4,14 +4,18 @@ import { motion } from 'framer-motion';
 const Index = () => {
  return (
    <div className="flex flex-col justify-center items-center min-h-screen">
-    {/* <div className='zigzag-1'></div> */}
-    {/* <div className='zigzag-2'></div> */}
+    <div>
+    <div className='whyus-blob-1'></div>
+      <div className='zigzag-1'></div>
+      <div className='whyus-blob-2'></div>
+    </div>
+    <div className='zigzag-2'></div>
      <motion.div
        initial={{ opacity: 0, y: -50 }}
        animate={{ opacity: 1, y: 0 }}
        transition={{ duration: 0.5 }}
        className="max-w-2xl w-full h-full p-8"
-     >
+     > 
        <h1 className="text-6xl font-grifter text-center font-bold mb-4">Why Us</h1>
        <p className="text-gray-900 text-center mb-4">
          At Flutter Your Way, we are a team of passionate and experienced app developers and software engineers driven by a shared mission: to empower businesses with innovative technology solutions.

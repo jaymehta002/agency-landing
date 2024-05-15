@@ -7,10 +7,12 @@ import Clients from "./Clients";
 const HeroPage = () => {
   return (
     <>
-      <motion.div initial={{opacity:0}} animate={{opacity:1, zIndex:0}} transition={{duration:0.5, delay:0.2}}  className="md:hero-wave hidden"></motion.div>
-      <motion.div initial={{opacity:0}} animate={{opacity:1, zIndex:0}} transition={{duration:0.5, delay:0.2}} className="hero-blob z-10"></motion.div>
-      <div className="background-design px-28">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div className="z-10">
+      <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5, delay:0.2}} className="hero-blob z-10"></motion.div>
+      <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5, delay:0.2}}  className="hero-wave z-10"></motion.div>
+      </div>
+      <div className="px-28 z-100">
+        <div className="container z-100 mx-auto flex flex-col md:flex-row items-center justify-between">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -19,7 +21,7 @@ const HeroPage = () => {
           >
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0, zIndex: 50}}
+              animate={{ opacity: 1, y: 0}}
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-6xl z-100 max-w-1/2 font-grifter font-bold text-gray-800 mb-4"
             >
@@ -38,7 +40,7 @@ const HeroPage = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
-                className="bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 rounded-md mr-4 mb-4"
+                className="bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 w-48 rounded-md mr-4 mb-4"
               >
                 Book Free Consultation
               </motion.button>
@@ -46,7 +48,7 @@ const HeroPage = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
-                className="border-2 border-blue-200 hover:bg-gray-400 text-sm text-gray-800 py-2 px-8 rounded-md mb-4"
+                className="border-2 border-blue-200 hover:bg-gray-400 text-sm text-gray-800 w-48 py-2 px-8 rounded-md mb-4"
               >
                 Learn More
               </motion.button>
@@ -59,28 +61,28 @@ const HeroPage = () => {
             >
               <Image
                 src={data.hero.profile[0]}
-                className="h-10 w-10 absolute top-0 left-0 z-10 hover:z-50"
+                className="h-10 w-10 absolute top-0 left-0 z-10 hover:z-50 hover:scale-105"
                 alt="Logo"
                 width={200}
                 height={200}
               />
               <Image
                 src={data.hero.profile[1]}
-                className="h-10 w-10 absolute top-0 left-7 z-20 hover:z-50"
+                className="h-10 w-10 absolute top-0 left-7 z-20 hover:z-50 hover:scale-105"
                 alt="Logo"
                 width={200}
                 height={200}
               />
               <Image
                 src={data.hero.profile[2]}
-                className="h-10 w-10 absolute top-0 left-14 z-30 hover:z-50"
+                className="h-10 w-10 absolute top-0 left-14 z-30 hover:z-50 hover:scale-105"
                 alt="Logo"
                 width={200}
                 height={200}
               />
               <Image
                 src={data.hero.profile[3]}
-                className="h-10 w-10 absolute top-0 left-20 z-40 hover:z-50"
+                className="h-10 w-10 absolute top-0 left-20 z-40 hover:z-50 hover:scale-105 "
                 alt="Logo"
                 width={200}
                 height={200}
@@ -99,31 +101,11 @@ const HeroPage = () => {
             <Image src="/images/bigScreen.png" className="" alt="hero" height={600} width={600} />
           </motion.div>
 
-          {/* <div className="xl:hidden 2xl:hidden md:block col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
-				<div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
-					<a href="" className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-						<img src="https://images.unsplash.com/photo-1571104508999-893933ded431?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" />
-						<div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-						<h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Whiskey</h3>
-					</a>
-					<a href="" className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-						<img src="https://images.unsplash.com/photo-1626897505254-e0f811aa9bf7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" />
-						<div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-						<h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Vodka</h3>
-					</a>
-				</div>
-				<a href="" className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
-					<img src="https://images.unsplash.com/photo-1504675099198-7023dd85f5a3?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" />
-					<div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-					<h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Gin</h3>
-				</a>
-			</div> */}
-
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="2xl:hidden xl:hidden grid mx-auto justify-center grid-cols-1 gap-4"
+            className="2xl:hidden xl:hidden z-20 grid mx-auto justify-center grid-cols-1 gap-4"
           >
             <div className="flex gap-4">
               <img
