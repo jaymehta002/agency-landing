@@ -27,10 +27,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message }) => {
             <h2 className="text-3xl font-bold font-grifter mb-2 p-2">
               Testimonial
             </h2>
-            <p className="mb-2 font-medium text-lg p-4">
-              We have been working with this agency for a long, and these guys
-              have never let us down
-            </p>
+            <p className="mb-2 font-medium text-lg p-4">{message}</p>
             <div className="flex items-center">
               <Image
                 src="/images/hug.png"
@@ -40,7 +37,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message }) => {
                 className="rounded-full"
               />
               <div className="ml-2 p-2">
-                <p className="font-semibold">YATO</p>
+                <p className="font-semibold">{name}</p>
                 <p className="text-sm text-gray-500">Location</p>
               </div>
               <div className="flex mt-2">
