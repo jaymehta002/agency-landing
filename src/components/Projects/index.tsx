@@ -15,24 +15,24 @@ const Projects: React.FC = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center items-center justify-center space-y-4 lg:space-y-0">
           <ProjectBox
-            imageUrl={data.projects[0].image}
-            title={data.projects[0].title}
-            description={data.projects[0].description}
+            imageUrl="/images/project.png"
+            title="Project Name"
+            description="Tagline or a short project description gives justice to the card"
           />
           <ProjectBox
-            imageUrl={data.projects[1].image}
-            title={data.projects[1].title}
-            description={data.projects[1].description}
+            imageUrl="/images/project.png"
+            title="Project Name"
+            description="Tagline or a short project description gives justice to the card"
           />
           <ProjectBox
-            imageUrl={data.projects[2].image}
-            title={data.projects[2].title}
-            description={data.projects[2].description}
+            imageUrl="/images/project.png"
+            title="Project Name"
+            description="Tagline or a short project description gives justice to the card"
           />
           <ProjectBox
-            imageUrl={data.projects[3].image}
-            title={data.projects[3].title}
-            description={data.projects[3].description}
+            imageUrl="/images/project.png"
+            title="Project Name"
+            description="Tagline or a short project description gives justice to the card"
           />
         </div>
       </div>
