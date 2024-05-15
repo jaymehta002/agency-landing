@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
+import Culture from "@/components/Culture";
+import Testimonials from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <WhyUs />
       <Services />
       <Projects />
+      <Testimonials />
+      <Culture />
       <ContactPage />
       <Footer />
     </div>

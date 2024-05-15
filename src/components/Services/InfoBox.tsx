@@ -1,5 +1,7 @@
-import React from "react";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
+import React from "react";
 
 interface InfoBoxProps {
   title: string;
@@ -9,8 +11,13 @@ interface InfoBoxProps {
 
 const InfoBox: React.FC<InfoBoxProps> = ({ title, description, imgSrc }) => {
   return (
-    <div className="flex flex-col items-start bg-gray-200 mx-4  rounded-lg shadow p-6 w-11/12 h-full space-y-4">
-      <div className="relative w-full h-32 mb-4">
+    <motion.div
+      className="flex flex-col items-start bg-[#ACEBE2] mx-4  rounded-lg shadow p-6 w-11/12 h-full space-y-4"
+      whileHover={{ scale: 1.05 }}
+    >
+      <motion.div
+        className="relative w-full h-32 mb-4"
+      >
         <Image
           width={120}
           height={120}
@@ -18,10 +25,20 @@ const InfoBox: React.FC<InfoBoxProps> = ({ title, description, imgSrc }) => {
           alt={title}
           className="rounded-lg"
         />
-      </div>
-      <h3 className="font-grifter text-3xl font-semibold">{title}</h3>
-      <p className="font-inter font-medium text-2xl">{description}</p>
-    </div>
+      </motion.div>
+      <motion.h3
+        className="font-grifter text-3xl font-semibold"
+        whileHover={{ color: "#333" }}
+      >
+        {title}
+      </motion.h3>
+      <motion.p
+        className="font-inter font-medium text-2xl"
+        whileHover={{ color: "#333" }}
+      >
+        {description}
+      </motion.p>
+    </motion.div>
   );
 };
 

@@ -108,18 +108,18 @@ const HeroPage = () => {
             className="2xl:hidden xl:hidden z-20 grid mx-auto justify-center grid-cols-1 gap-4"
           >
             <div className="flex gap-4">
-              <img
+              <Image height={1080} width={1080}
                 src={data.hero.images[0]}
                 alt="Image 1"
                 className="w-1/2 "
               />
-              <img
+              <Image height={1080} width={1080}
                 src={data.hero.images[1]}
                 alt="Image 2"
                 className="w-1/2"
               />
             </div>
-            <img src={data.hero.images[2]} alt="Image 3" className="w-full" />
+            <Image height={1080} width={1080} src={data.hero.images[2]} alt="Image 3" className="w-full" />
           </motion.div>
         </div>
         <div className="lg:block 2xl:block hidden">

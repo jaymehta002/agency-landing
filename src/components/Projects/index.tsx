@@ -4,8 +4,8 @@ import ProjectBox from "./ProjectBox";
 
 const Projects: React.FC = () => {
   return (
-    <div>
-      <div className="flex flex-col items-center justify-center space-y-8 py-8 w-full">
+    <section id="projects">
+      <div className="flex  z-10 flex-col items-center justify-center space-y-8 py-8 w-full">
         <h1 className="font-grifter text-6xl font-bold text-center leading-10">
           Projects
         </h1>
@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

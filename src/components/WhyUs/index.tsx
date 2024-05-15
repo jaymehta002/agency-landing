@@ -3,11 +3,12 @@ import { motion } from 'framer-motion';
 
 const Index = () => {
  return (
+  <section id='whyus'>
    <div className="flex flex-col justify-center items-center min-h-screen">
     <div>
-    <div className='whyus-blob-1'></div>
-      <div className='zigzag-1'></div>
-      <div className='whyus-blob-2'></div>
+    <div className='blob-1'></div>
+      <div className='zigzag-1'></div>  
+      <div className="bg-[url('/images/blob.png')} absolute h-64 w-64 z-100"></div>
     </div>
     <div className='zigzag-2'></div>
      <motion.div
@@ -69,6 +70,7 @@ const Index = () => {
        </motion.div>
      </motion.div>
    </div>
+   </section>
  );
 };
 
