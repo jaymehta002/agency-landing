@@ -4,7 +4,7 @@ import { CiFacebook, CiInstagram, CiLinkedin, CiTwitter, CiYoutube } from "react
 import data from "../../data.json";
 const ContactPage = () => {
   return (
-    <section id="contact" className="mt-60 md:px-40 h-screen flex flex-col justify-center items-center">
+    <section id="contact" className="mt-60 md:px-40 flex flex-col justify-center items-center">
       {/* Title and Description */}
       <div className="text-center mb-8">
         <h1 className="font-grifter text-4xl md:text-6xl mb-4">Contact Us</h1>

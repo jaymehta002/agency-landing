@@ -122,7 +122,7 @@ const HeroPage = () => {
             <Image height={1080} width={1080} src={data.hero.images[2]} alt="Image 3" className="md:w-full w-64" />
           </motion.div>
         </div>
-        <div className="lg:block 2xl:block hidden">
+        <div className="xl:block 2xl:block hidden">
         <Clients data={data.hero.clients} />
         </div>
       </div>

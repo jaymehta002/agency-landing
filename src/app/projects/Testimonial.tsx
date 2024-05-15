@@ -10,7 +10,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message }) => {
   return (
     <div className="flex flex-col lg:flex-row p-8 min-h-screen">
       {/* Right Blocks */}
-      <div className="flex flex-col flex-1 p-4 space-y-4">
+      <div className="flex flex-col flex-1 px-4 space-y-4  ">
         {/* Upper Right Block */}
         <div className="flex flex-col items-center bg-[#ACEBE2] p-4 rounded-lg flex-1">
           <Image
@@ -58,12 +58,13 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message }) => {
         </div>
       </div>
       {/* Left Block (only visible on large screens) */}
-      <div className="hidden lg:flex flex-1 bg-[#ACEBE2] rounded-lg items-center justify-center p-4">
+      <div className="hidden lg:flex flex-1 space-y-4 bg-[#ACEBE2] rounded-lg items-center justify-center p-4">
         <Image
           src="/images/testimonialphone.png"
           alt="Phones"
           width={300}
           height={649}
+          className="h-[650px] w-[480px] object-contain"
         />
       </div>
     </div>
