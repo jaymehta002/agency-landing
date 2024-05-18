@@ -3,7 +3,7 @@
 const Index = () => {
   return (
     <section id='whyus'>
-      <div className="flex flex-col justify-center items-center min-h-screen">
+      <div className="flex flex-col justify-center items-center">
         <div>
           <div className='blob-1'></div>
           <div className="bg-[url('/images/zigzag.png')] md:block hidden w-32 md:right-20 h-16 bg-no-repeat absolute"></div>  
