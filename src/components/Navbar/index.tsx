@@ -21,11 +21,11 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/"><Image height={1080} width={1080} className="h-12 w-12" src="/logo/logo.png" alt="Logo" /></a>
+            <a href="/"><Image height={1080} width={1080} className="h-8 sm:h-12 w-8 sm:w-12" src="/logo/logo.png" alt="Logo" /></a>
           </div>
 
           {/* Navigation */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -72,23 +72,23 @@ function Navbar() {
           </div>
 
           {/* Button */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <motion.button
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="nav-button hover:bg-blue-600 text-white py-3 px-4 rounded-md"
+              className="nav-button hover:bg-blue-600 text-white py-2 sm:py-3 px-3 sm:px-4 rounded-md text-sm sm:text-base"
             >
               Book Free Consultation
             </motion.button>
           </div>
 
           {/* Mobile Menu Toggle */}
-          <div className="-mr-2 flex md:hidden">
+          <div className="-mr-2 flex lg:hidden">
             <motion.button
               onClick={toggleMenu}
               type="button"
-              className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400  hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400"
               aria-controls="mobile-menu"
               aria-expanded={isOpen}
               initial={{ opacity: 0 }}
@@ -136,7 +136,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       <motion.div
-        className={`${isOpen ? 'block' : 'hidden'} md:hidden`}
+        className={`${isOpen ? 'block' : 'hidden'} lg:hidden`}
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6 }}
