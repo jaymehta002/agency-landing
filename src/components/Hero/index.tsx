@@ -64,8 +64,8 @@ const HeroPage = () => {
                   className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105 relative -left-16"
                 />
               </div>
-              <div className=" flex items-center relative left-4 lg:-left-14   justify-center m-2">
-                <span className="text-gray-600 font-bold">
+              <div className=" flex items-center relative lg:-left-14 justify-center my-2">
+                <span className="text-gray-600 mx-16 font-bold">
                   15+ clients already launched their MVP
                 </span>
               </div>
