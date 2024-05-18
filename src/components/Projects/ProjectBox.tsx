@@ -19,7 +19,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   imageUrl,
 }) => {
   return (
-    <div className="bg-[#ACEBE2] p-8 w-11/12 flex flex-col justify-center items-start rounded-lg">
+    <div className="bg-[#ACEBE2] p-8 w-full h-full flex flex-col justify-center items-start rounded-lg">
       <div className="flex w-full justify-between">
         <h1 className="text-4xl font-grifter font-bold mb-2 ">{title}</h1>
         <Link href={`/projects/${id}`} passHref>

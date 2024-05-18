@@ -10,7 +10,7 @@ const HeroPage = () => {
         <div className="hero-blob z-10"></div>
         <div className="md:hero-wave hidden z-10"></div>
       </div>
-      <div className="px-4 md:px-28 relative z-100">
+      <div className="px-4 lg:px-28 relative z-100">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h1 className="text-4xl md:text-6xl z-100 max-w-full md:text-left text-center md:max-w-1/2 font-grifter font-bold text-gray-800 mb-4">
@@ -33,40 +33,40 @@ const HeroPage = () => {
               </button>
             </div>
 
-            <div className="flex  lg:justify-start items-center justify-center mt-4">
-              <div className="flex flex-row">
+            <div className="flex lg:gap-6 md:gap-4 gap-2 lg:justify-start items-center justify-center mt-4">
+              <div className="flex flex-row -space-x-4">
                 <Image
                   src="/images/clients/client1.png"
                   alt="Client 1"
                   width={1080}
                   height={1080}
-                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105 relative"
+                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105 "
                 />
                 <Image
                   src="/images/clients/client2.png"
                   alt="Client 2"
                   width={1080}
                   height={1080}
-                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105 relative -left-6"
+                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105"
                 />
                 <Image
                   src="/images/clients/client3.png"
                   alt="Client 3"
                   width={1080}
                   height={1080}
-                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105 relative -left-12"
+                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105"
                 />
                 <Image
                   src="/images/clients/client4.png"
                   alt="Client 4"
                   width={1080}
                   height={1080}
-                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105 relative -left-16"
+                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105 "
                 />
               </div>
-              <div className=" flex items-center relative lg:-left-14 justify-center my-2">
-                <span className="text-gray-600 mx-16 font-bold">
-                  15+ clients already launched their MVP
+              <div className=" flex lg:w-48 w-32 my-2">
+                <span className="text-gray-600 font-bold">
+                  Served 20 happy clients
                 </span>
               </div>
             </div>

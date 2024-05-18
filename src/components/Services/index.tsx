@@ -4,9 +4,9 @@ import InfoBox from "./InfoBox";
 
 function Services() {
   return (
-    <>
+    <div className="mt-20">
       <div>
-        <span className="bg-[url('/images/spring.png')] bg-no-repeat absolute left-1/4 h-20 w-24"></span>
+        <span className="bg-[url('/images/spring.png')] bg-no-repeat absolute md:left-1/4  h-20 w-24"></span>
         <span className="bg-[url('/images/spiral.png')] bg-no-repeat absolute md:right-32 right-4 h-20 w-24"></span>
       </div>
       <motion.section
@@ -29,7 +29,7 @@ function Services() {
           What Exactly We Do
         </h2>
         <motion.div
-          className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6 items-center justify-center"
+          className="flex flex-col lg:flex-row mx-6 space-y-4 lg:space-y-0 lg:space-x-6 items-center justify-center"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -46,7 +46,7 @@ function Services() {
           />
         </motion.div>
       </motion.section>
-    </>
+    </div>
   );
 }
 

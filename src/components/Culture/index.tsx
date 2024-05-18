@@ -6,7 +6,7 @@ const Culture = () => {
   return (
     <motion.section 
       id='culture' 
-      className='flex md:flex-row flex-col md:px-10 lg:px-40 mt-20 justify-center'
+      className='flex md:flex-row flex-col lg:px-10 mt-20 justify-center'
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}

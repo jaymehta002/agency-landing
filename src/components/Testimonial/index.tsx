@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Index = () => {
   return (
-    <div className="container mx-auto md:px-40 px-4 py-8">
+    <div className="container mx-auto lg:px-40 px-4 py-8">
       <h2 className="text-3xl font-bold mb-4">Our Happy Clients say About us</h2>
       <h3 className="text-lg font-semibold mb-4">Here&#39;s a significant proof of our work, the testimonials, that we have received from our previous clients.</h3>
 

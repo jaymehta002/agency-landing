@@ -12,7 +12,7 @@ interface InfoBoxProps {
 const InfoBox: React.FC<InfoBoxProps> = ({ title, description, imgSrc }) => {
   return (
     <motion.div
-      className="flex flex-col items-start bg-[#ACEBE2] mx-4  rounded-lg shadow p-6 w-11/12 h-full space-y-4"
+      className="flex flex-col items-start bg-[#ACEBE2] mx-4  rounded-lg shadow p-6 w-full lg:h-[400px] h-full space-y-4"
       whileHover={{ scale: 1.05 }}
     >
       <motion.div

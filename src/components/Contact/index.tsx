@@ -18,7 +18,7 @@ const ContactPage = () => {
     },
   };
   return (
-    <section id="contact" className="mt-60 lg:px-40 flex flex-col justify-center items-center">
+    <section id="contact" className="mt-20 lg:px-40 flex flex-col justify-center items-center">
       {/* Title and Description */}
       <motion.div className="text-center mb-8"
         variants={fadeInUp}
