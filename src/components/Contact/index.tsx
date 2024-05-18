@@ -2,33 +2,49 @@
 import { motion } from "framer-motion";
 import { CiFacebook, CiInstagram, CiLinkedin, CiTwitter, CiYoutube } from "react-icons/ci";
 import data from "../../data.json";
+import Image from "next/image";
 const ContactPage = () => {
+  const fadeInUp = {
+    initial: {
+      y: 60,
+      opacity: 0,
+    },
+    animate: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.6,
+      },
+    },
+  };
   return (
-    <section id="contact" className="mt-60 md:px-40 flex flex-col justify-center items-center">
+    <section id="contact" className="mt-60 lg:px-40 flex flex-col justify-center items-center">
       {/* Title and Description */}
-      <div className="text-center mb-8">
+      <motion.div className="text-center mb-8"
+        variants={fadeInUp}
+        initial="initial"
+        whileInView="animate"
+      >
         <h1 className="font-grifter text-4xl md:text-6xl mb-4">Contact Us</h1>
         <p className="text-lg md:text-xl">Here&#39;s how you can contact us and take your business to new heights.</p>
-      </div>
+      </motion.div>
 
       {/* Contact Form and Illustration */}
-      <div className="flex flex-col md:flex-row justify-center items-center w-full px-4">
+      <motion.div  className="flex flex-col lg:flex-row justify-center items-center w-full px-4"
+        variants={fadeInUp}
+        initial="initial"
+        whileInView="animate"
+      >
         {/* Contact Form */}
-        <motion.div
+        <div
           className="w-full md:w-1/2 px-4 mb-4 md:mb-0"
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
         > 
-          <motion.form
+          <form
             className="p-6"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
           >
             <div className="mb-4">
               <input
-                className="border border-gray-300 rounded-md px-4 py-2 w-full focus:outline-none focus:border-blue-500"
+                className="border border-gray-300 rounded-md px-4 py-2 w-full   focus:outline-none focus:border-blue-500"
                 id="name"
                 type="text"
                 placeholder="Name"
@@ -52,26 +68,22 @@ const ContactPage = () => {
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 w-full rounded-md">
               Send
             </button>
-          </motion.form>
-        </motion.div>
+          </form>
+        </div>
 
         {/* Illustration */}
-        <motion.div
-          className="w-full md:w-1/2 px-4 mb-4 md:mb-0"
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+        <div
+          className="w-full lg:w-1/2 px-4 mb-4 md:mb-0"
         >
-          <motion.img
+          <Image
             src="/images/contactus.svg"
             alt="Illustration"
             className="w-full h-auto"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
+            height={1080}
+            width={1080}
           />
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
 
       {/* Social Profiles */}
       <div className="whyus-bg flex flex-col md:flex-row justify-around items-center w-11/12 px-6 md:px-20 py-20 h-80 rounded-2xl mt-12">
