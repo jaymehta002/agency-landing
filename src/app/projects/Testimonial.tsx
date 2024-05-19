@@ -4,15 +4,16 @@ import React from "react";
 interface TestimonialProps {
   name: string;
   message: string;
+  background: string;
 }
 
-const Testimonial: React.FC<TestimonialProps> = ({ name, message }) => {
+const Testimonial: React.FC<TestimonialProps> = ({ name, message, background }) => {
   return (
     <section id="testimonial" className="flex flex-col lg:flex-row md:p-8 p-2 min-h-screen">
       {/* Right Blocks */}
       <div className="flex flex-col flex-1 px-4 space-y-4  ">
         {/* Upper Right Block */}
-        <div className="flex flex-col items-center bg-[#ACEBE2] p-4 rounded-lg flex-1">
+        <div className="flex flex-col items-center p-4 rounded-lg flex-1" style={{backgroundColor: background}}>
           <Image
             src="/images/phone.png"
             alt="Safe and easy"
@@ -22,7 +23,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message }) => {
         </div>
 
         {/* Lower Right Block */}
-        <div className="bg-[#ACEBE2] rounded-lg p-6 flex-1">
+        <div className=" rounded-lg p-6 flex-1" style={{backgroundColor: background}}>
           <div className="flex flex-col items-start">
             <h2 className="text-3xl font-bold font-grifter mb-2 p-2">
               Testimonial
@@ -58,7 +59,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message }) => {
         </div>
       </div>
       {/* Left Block (only visible on large screens) */}
-      <div className="hidden lg:flex flex-1 space-y-4 bg-[#ACEBE2] rounded-lg items-center justify-center p-4">
+      <div className="hidden lg:flex flex-1 space-y-4 rounded-lg items-center justify-center p-4" style={{backgroundColor: background}}>
         <Image
           src="/images/testimonialphone.png"
           alt="Phones"

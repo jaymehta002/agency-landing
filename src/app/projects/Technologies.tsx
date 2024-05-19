@@ -3,13 +3,14 @@ import React from "react";
 
 interface TechnologyProps {
   technologies: string[];
+  background: string;
   // In a real app, this could be a path to an image or an SVG component
 }
 
-const TechnologiesUsed: React.FC<TechnologyProps> = ({ technologies }) => {
+const TechnologiesUsed: React.FC<TechnologyProps> = ({ technologies, background }) => {
   return (
     <section id="technology" className="flex flex-col lg:flex-row items-stretch justify-between max-w-8xl mx-auto gap-8 space-y-8 lg:space-y-0 lg:space-x-0 lg:px-12 md:px-8 px-6 py-12">
-      <div className="w-full flex-grow flex flex-col rounded-lg bg-[#ACEBE2] p-12 lg:w-[60%]">
+      <div className="w-full flex-grow flex flex-col rounded-lg p-12 lg:w-[60%]" style={{backgroundColor: background}}>
         <h1 className="text-4xl md:text-left text-center font-grifter font-bold text-black md:p-4">
           Technologies Used
         </h1>

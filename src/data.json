@@ -90,18 +90,24 @@
     }
   ],
 
+  "projectTheme":{
+    "backgroundHome": "#24B24C",
+    "backgroundRest": "#ACEBE2"
+  },
+
   "projects": [
     {
       "id": 1,
       "title": "Project 1",
       "image": "/images/projects/project.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "link": "https://www.google.com",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
       "technologies": ["React", "Node", "MongoDB"],
-      "thumbnailImage": "/images/phone.png",
+      "thumbnailImage": "/images/projects/project1/4.png",
       "challanges": [
-        {
+        { 
           "img": "/images/projects/challenge1.png",
           "text": "Challange 1"
         },
@@ -134,6 +140,7 @@
       "title": "Project 2",
       "image": "/images/projects/project.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "link": "https://www.google.com",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
       "technologies": ["React", "Node", "MongoDB"],
@@ -172,6 +179,7 @@
       "title": "Project 3",
       "image": "/images/projects/project.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "link": "https://www.google.com",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
       "technologies": ["React", "Node", "MongoDB"],
@@ -210,6 +218,7 @@
       "title": "Project 4",
       "image": "/images/projects/project.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "link": "https://www.google.com",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
       "technologies": ["React", "Node", "MongoDB"],

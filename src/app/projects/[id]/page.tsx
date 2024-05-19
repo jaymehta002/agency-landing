@@ -54,7 +54,9 @@ export default function ProjectPage({ params }: PageProps) {
         title={project.title}
         googlePlayImgSrc="/images/googleplay.png"
         description={project.description}
+        link={project.link}
         phoneImgSrc={project.thumbnailImage}
+        background={data.projectTheme.backgroundHome}
       />
       <SummaryPage
         clientName="Client"
@@ -63,13 +65,15 @@ export default function ProjectPage({ params }: PageProps) {
         ourRole={project.roles}
         projectDescription={project.about}
         projectImage={project.thumbnailImage}
+        background={data.projectTheme.backgroundRest}
       />
-      <Challenges challenges={project.challanges} features={project.features} />
-      <TechnologiesUsed technologies={project.technologies} />
+      <Challenges challenges={project.challanges} features={project.features} background={data.projectTheme.backgroundRest} />
+      <TechnologiesUsed technologies={project.technologies} background={data.projectTheme.backgroundRest} />
       <Testimonial
         name="Yato"
         message="We have been working with this agency for a long, and these guys
               have never let us down."
+        background={data.projectTheme.backgroundRest}
       />
       <Footer />
     </div>

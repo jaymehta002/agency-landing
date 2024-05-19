@@ -9,12 +9,13 @@ interface Item {
 interface ChallengesProps {
   challenges: Item[];
   features: Item[];
+  background: string;
 }
 
-const Challenges: React.FC<ChallengesProps> = ({ challenges, features }) => {
+const Challenges: React.FC<ChallengesProps> = ({ challenges, features, background }) => {
   return (
     <section id="challenges" className="flex flex-col lg:flex-row items-stretch justify-between max-w-8xl mx-auto md:gap-8 gap-4 space-y-8 lg:space-y-0 lg:space-x-0 lg:px-12 md:px-8 px-6 py-12">
-      <div className="w-full flex-grow flex flex-col rounded-lg bg-[#ACEBE2] p-12 lg:w-[60%]">
+      <div className="w-full flex-grow flex flex-col rounded-lg p-12 lg:w-[60%]" style={{backgroundColor: background}}>
         <h1 className="text-4xl font-grifter font-bold text-black p-4">
           Challenges
         </h1>
@@ -32,7 +33,7 @@ const Challenges: React.FC<ChallengesProps> = ({ challenges, features }) => {
           ))}
         </ul>
       </div>
-      <div className="w-full flex-grow flex flex-col rounded-lg bg-[#ACEBE2] p-12 lg:w-[40%]">
+      <div className="w-full flex-grow flex flex-col rounded-lg p-12 lg:w-[40%]" style={{backgroundColor: background}}>
         <h1 className="text-4xl font-grifter font-bold text-black p-4">
           Features
         </h1>
