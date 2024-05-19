@@ -58,6 +58,7 @@ const Projects: React.FC = () => {
             {data.projects.map((project) => (
               <motion.div key={project.id} variants={itemVariants}>
                 <ProjectBox
+                key={project.id}
                   id={project.id}
                   imageUrl={project.image}
                   title={project.title}
