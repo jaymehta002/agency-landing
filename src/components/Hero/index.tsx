@@ -6,9 +6,20 @@ import { motion } from "framer-motion";
 
 const HeroPage = () => {
   const fadeInLeft = {
-    hidden: { opacity: 0, x: 20 },
-    visible: { opacity: 1, x: 0, transition: { duration: 1.0 } },
+    hidden: { opacity: 0, x: -20 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeInOut" } },
   };
+
+  const fadeInRight = {
+    hidden: { opacity: 0, x: 10 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeInOut" } },
+  };
+
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeInOut" } },
+  };
+
   return (
     <>
       <div className="relative z-0">
@@ -17,33 +28,57 @@ const HeroPage = () => {
       </div>
       <div className="px-4 lg:px-28 relative z-100">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-1/2 mb-8 md:mb-0">
+          <motion.div
+            variants={fadeInLeft}
+            initial="hidden"
+            whileInView="visible"
+            // viewport={{ once: true }}
+            className="md:w-1/2 mb-8 md:mb-0"
+          >
             <motion.h1
               variants={fadeInLeft}
               initial="hidden"
               whileInView="visible"
+              // viewport={{ once: true }}
               className="text-4xl md:text-6xl z-100 max-w-full md:text-left text-center md:max-w-1/2 font-grifter font-bold text-gray-800 mb-4"
             >
               Fluttering Your <br /> Ideas Into Digital Reality
             </motion.h1>
-            <div>
+            <motion.div
+              variants={fadeInUp}
+              initial="hidden"
+              whileInView="visible"
+              // viewport={{ once: true }}
+            >
               <ul className="list-none items-center justify-center md:items-start md:justify-start text-base md:text-lg font-semibold flex flex-cols gap-4 md:gap-6">
                 <li>Innovate</li>
                 <li className="list-disc">Design</li>
                 <li className="list-disc">Develop</li>
               </ul>
-            </div>
+            </motion.div>
 
-            <div className="flex items-center justify-center md:items-start md:justify-start gap-4 mt-4 flex-wrap">
+            <motion.div
+              variants={fadeInUp}
+              initial="hidden"
+              whileInView="visible"
+              // viewport={{ once: true }}
+              className="flex items-center justify-center md:items-start md:justify-start gap-4 mt-4 flex-wrap"
+            >
               <button className="bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 w-48 rounded-md">
                 Book Free Consultation
               </button>
               <button className="border-2 border-blue-200 hover:bg-gray-400 text-sm text-gray-800 w-48 py-2 px-8 rounded-md">
                 Learn More
               </button>
-            </div>
+            </motion.div>
 
-            <div className="flex lg:gap-6 md:gap-4 gap-2 lg:justify-start items-center justify-center mt-4">
+            <motion.div
+              variants={fadeInUp}
+              initial="hidden"
+              whileInView="visible"
+              // viewport={{ once: true }}
+              className="flex lg:gap-6 md:gap-4 gap-2 lg:justify-start items-center justify-center mt-4"
+            >
               <div className="flex flex-row -space-x-4">
                 <Image
                   src="/images/clients/client1.png"
@@ -79,9 +114,15 @@ const HeroPage = () => {
                   Served 20 happy clients
                 </span>
               </div>
-            </div>
-          </div>
-          <div className="w-full md:w-auto">
+            </motion.div>
+          </motion.div>
+          <motion.div
+            variants={fadeInRight}
+            initial="hidden"
+            whileInView="visible"
+            // viewport={{ once: true }}
+            className="w-full md:w-auto"
+          >
             <Image
               src="/images/hero/screen.png"
               alt="hero"
@@ -89,7 +130,7 @@ const HeroPage = () => {
               width={1080}
               className=""
             />
-          </div>
+          </motion.div>
         </div>
         <Clients data={data.hero.clients} />
       </div>

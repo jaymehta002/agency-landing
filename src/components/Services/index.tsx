@@ -1,19 +1,29 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import InfoBox from "./InfoBox";
 
 function Services() {
+  const { scrollYProgress } = useScroll();
+  const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2]);
+
   return (
     <div className="mt-20">
       <div className="z-0">
-        <span className="bg-[url('/images/spring.png')] lg:block hidden bg-no-repeat absolute md:left-1/4  h-20 w-24"></span>
-        <span className="bg-[url('/images/spiral.png')] z-0 bg-no-repeat absolute md:right-32 right-4 h-20 w-24"></span>
+        <motion.span
+          style={{ scale }}
+          className="bg-[url('/images/spring.png')] lg:block hidden bg-no-repeat absolute md:left-1/4 h-20 w-24"
+        ></motion.span>
+        <motion.span
+          style={{ scale }}
+          className="bg-[url('/images/spiral.png')] z-0 bg-no-repeat absolute md:right-32 right-4 h-20 w-24"
+        ></motion.span>
       </div>
       <motion.section
         id="services"
         className="flex flex-col relative z-20 items-center justify-center space-y-8 md:px-40 py-8 mt-8 w-full"
         initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        // viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
         <h1 className="font-grifter text-6xl font-bold text-center">
@@ -31,7 +41,8 @@ function Services() {
         <motion.div
           className="flex flex-col lg:flex-row mx-6 space-y-4 lg:space-y-0 lg:space-x-6 items-center justify-center"
           initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          // viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
           <InfoBox
