@@ -15,7 +15,7 @@ function Services() {
         ></motion.span>
         <motion.span
           style={{ scale }}
-          className="bg-[url('/images/spiral.png')] z-0 bg-no-repeat absolute md:right-32 right-4 h-20 w-24"
+          className="bg-[url('/images/spiral.png')] z-0 bg-no-repeat absolute right-8 md:right-32 right-4 h-20 w-14"
         ></motion.span>
       </div>
       <motion.section

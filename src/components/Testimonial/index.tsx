@@ -14,7 +14,7 @@ const Index = () => {
     animate: { opacity: 1 },
   };
   return (
-    <div className="container mx-auto lg:px-40 px-4 py-8">
+    <div className="container mx-auto overflow-hidden lg:px-40 px-4 py-8">
       <motion.h2 variants={fade} initial="initial" whileInView="animate" transition={{duration:0.5}} className="text-3xl font-bold mb-4">Our Happy Clients say About us</motion.h2>
       <motion.h3 variants={fade} initial="initial" whileInView="animate" transition={{duration:0.5}} className="text-lg font-semibold mb-4">Here&#39;s a significant proof of our work, the testimonials, that we have received from our previous clients.</motion.h3>
 
