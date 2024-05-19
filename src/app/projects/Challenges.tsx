@@ -13,7 +13,7 @@ interface ChallengesProps {
 
 const Challenges: React.FC<ChallengesProps> = ({ challenges, features }) => {
   return (
-    <div className="flex flex-col lg:flex-row items-stretch justify-between max-w-8xl mx-auto md:gap-8 gap-4 space-y-8 lg:space-y-0 lg:space-x-0 lg:px-12 md:px-8 px-6 py-12">
+    <section id="challenges" className="flex flex-col lg:flex-row items-stretch justify-between max-w-8xl mx-auto md:gap-8 gap-4 space-y-8 lg:space-y-0 lg:space-x-0 lg:px-12 md:px-8 px-6 py-12">
       <div className="w-full flex-grow flex flex-col rounded-lg bg-[#ACEBE2] p-12 lg:w-[60%]">
         <h1 className="text-4xl font-grifter font-bold text-black p-4">
           Challenges
@@ -51,7 +51,7 @@ const Challenges: React.FC<ChallengesProps> = ({ challenges, features }) => {
           ))}
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,7 +4,6 @@ import Link from "next/link";
 import React from "react";
 
 interface ProjectBoxProps {
-  key: number;
   id: number;
   title: string;
   description: string;
@@ -12,7 +11,6 @@ interface ProjectBoxProps {
 }
 
 const ProjectBox: React.FC<ProjectBoxProps> = ({
-  key,
   id,
   title,
   description,

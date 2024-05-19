@@ -8,7 +8,7 @@ interface TestimonialProps {
 
 const Testimonial: React.FC<TestimonialProps> = ({ name, message }) => {
   return (
-    <div className="flex flex-col lg:flex-row md:p-8 p-2 min-h-screen">
+    <section id="testimonial" className="flex flex-col lg:flex-row md:p-8 p-2 min-h-screen">
       {/* Right Blocks */}
       <div className="flex flex-col flex-1 px-4 space-y-4  ">
         {/* Upper Right Block */}
@@ -67,7 +67,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message }) => {
           className="h-[650px] w-[480px] object-contain"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

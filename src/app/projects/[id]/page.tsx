@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Projects/Navbar";
 import React from "react";
 import FirstBlock from "../firstBlock";
 import SummaryPage from "../SummaryPage";

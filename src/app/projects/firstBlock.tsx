@@ -15,7 +15,7 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
   phoneImgSrc,
 }) => {
   return (
-    <div className="bg-green-500 p-4 lg:p-8 rounded-xl flex flex-col lg:flex-row items-center justify-between lg:mx-12 md:mx-8 mx-6  px-4 lg:px-8">
+    <div id="#" className="bg-green-500 p-4 lg:p-8 rounded-xl flex flex-col lg:flex-row items-center justify-between lg:mx-12 md:mx-8 mx-6  px-4 lg:px-8">
       {/* Text and Heading Section */}
       <div className="flex flex-col items-start justify-center space-y-4 lg:w-1/2 mb-6 lg:mb-0">
         <h1 className="text-3xl lg:text-4xl font-grifter font-bold text-black">
