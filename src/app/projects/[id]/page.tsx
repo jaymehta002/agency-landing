@@ -21,7 +21,7 @@ interface ProjectProps {
   description: string;
   about: string;
   roles: string[];
-  technologies: string[];
+  technologies: Item[];
   thumbnailImage: string;
   challanges: Item[];
   features: Item[];
@@ -47,6 +47,7 @@ export default function ProjectPage({ params }: PageProps) {
     notFound();
   }
 
+
   return (
     <div className="bg-[#E7F8FC]">
       <Navbar />
@@ -68,6 +69,7 @@ export default function ProjectPage({ params }: PageProps) {
         background={data.projectTheme.backgroundRest}
       />
       <Challenges challenges={project.challanges} features={project.features} background={data.projectTheme.backgroundRest} />
+
       <TechnologiesUsed technologies={project.technologies} background={data.projectTheme.backgroundRest} />
       <Testimonial
         name="Yato"

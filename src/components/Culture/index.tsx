@@ -21,6 +21,7 @@ const Culture = () => {
         className='w-full md:w-1/2 p-6'
         initial={{ opacity: 0, x: -20 }}
         whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <h2 className='md:text-6xl text-4xl font-grifter font-bold mb-4'>Culture</h2>
@@ -30,6 +31,7 @@ const Culture = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
+            viewport={{ once: true }}
             className="bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 w-48 rounded-md mr-4 mb-4"
           >
             Book Free Consultation
@@ -38,6 +40,7 @@ const Culture = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
+            viewport={{ once: true }}
             className="border-2 border-blue-200 hover:bg-gray-400 text-sm text-gray-800 w-48 py-2 px-8 rounded-md mb-4"
           >
             Learn More
@@ -49,6 +52,7 @@ const Culture = () => {
           className='w-full object-cover' 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.8 }}
         />
       </motion.div>
@@ -58,6 +62,7 @@ const Culture = () => {
         className='w-full md:w-1/2 p-6'
         initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <div className='grid grid-cols-2 gap-4'>
@@ -66,6 +71,7 @@ const Culture = () => {
               className='relative mb-4 overflow-hidden'
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <Image height={1080} width={1080} src='/images/culture2.png' alt='Image 1' className='w-full object-cover' />
@@ -76,6 +82,7 @@ const Culture = () => {
               className='relative mb-4 overflow-hidden'
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.6 }}
             >
               <Image height={1080} width={1080} src='/images/culture3.png' alt='Image 2' className='w-full object-cover' />
@@ -88,6 +95,7 @@ const Culture = () => {
               className='relative mb-4 overflow-hidden'
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.8 }}
             >
               <Image height={1080} width={1080} src='/images/culture4.png' alt='Image 3' className='w-full object-cover' />
@@ -98,6 +106,7 @@ const Culture = () => {
               className='relative mb-4 overflow-hidden'
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 1 }}
             >
               <Image height={1080} width={1080} src='/images/culture5.png' alt='Image 4' className='w-full object-cover' />

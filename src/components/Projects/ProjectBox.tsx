@@ -18,9 +18,9 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
 }) => {
   return (
     <div className="bg-[#ACEBE2] p-8 w-full h-full flex flex-col justify-center items-start rounded-lg">
+      <Link href={`/projects/${id}`} passHref>
       <div className="flex w-full justify-between">
         <h1 className="text-4xl font-grifter font-bold mb-2 ">{title}</h1>
-        <Link href={`/projects/${id}`} passHref>
           <button aria-label="View project">
             <Image
               src="/images/arrow.png"
@@ -29,7 +29,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               height={24}
             />
           </button>
-        </Link>
+        
       </div>
       <p className=" text-base font-medium">{description}</p>
       <div className="flex w-full h-60 items-center justify-center">
@@ -40,6 +40,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
           alt="Descriptive visual"
         />
       </div>
+      </Link>
     </div>
   );
 };

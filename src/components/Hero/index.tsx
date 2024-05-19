@@ -22,10 +22,10 @@ const HeroPage = () => {
 
   return (
     <>
-      <div className="relative z-0">
+      <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration:0.5}} className="relative z-0">
         <div className="hero-blob z-10"></div>
         <div className="md:hero-wave hidden z-10"></div>
-      </div>
+      </motion.div>
       <div className="px-4 lg:px-28 relative z-100">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <motion.div

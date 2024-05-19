@@ -104,7 +104,20 @@
       "link": "https://www.google.com",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
-      "technologies": ["React", "Node", "MongoDB"],
+      "technologies": [
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        }
+      ],
       "thumbnailImage": "/images/projects/project1/4.png",
       "challanges": [
         { 
@@ -143,7 +156,20 @@
       "link": "https://www.google.com",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
-      "technologies": ["React", "Node", "MongoDB"],
+      "technologies": [
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        }
+      ],
       "thumbnailImage": "/images/phone.png",
       "challanges": [
         {
@@ -182,7 +208,20 @@
       "link": "https://www.google.com",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
-      "technologies": ["React", "Node", "MongoDB"],
+      "technologies": [
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        }
+      ],
       "thumbnailImage": "/images/phone.png",
       "challanges": [
         {
@@ -221,8 +260,21 @@
       "link": "https://www.google.com",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
-      "technologies": ["React", "Node", "MongoDB"],
       "thumbnailImage": "/images/phone.png",
+      "technologies": [
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "tech"
+        }
+      ],
       "challanges": [
         {
           "img": "/images/projects/challange1.png",

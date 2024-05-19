@@ -24,6 +24,7 @@ const ContactPage = () => {
         variants={fadeInUp}
         initial="initial"
         whileInView="animate"
+        viewport={{ once: true }}
       >
         <h1 className="font-grifter text-4xl md:text-6xl mb-4">Contact Us</h1>
         <p className="text-lg md:text-xl">Here&#39;s how you can contact us and take your business to new heights.</p>
@@ -34,6 +35,7 @@ const ContactPage = () => {
         variants={fadeInUp}
         initial="initial"
         whileInView="animate"
+        viewport={{ once: true }}
       >
         {/* Contact Form */}
         <div
