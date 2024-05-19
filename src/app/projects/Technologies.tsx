@@ -1,9 +1,9 @@
-'use client'
+"use client";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 
-interface Item{
+interface Item {
   text: string;
   img: string;
 }
@@ -13,7 +13,10 @@ interface TechnologyProps {
   background: string;
 }
 
-const TechnologiesUsed: React.FC<TechnologyProps> = ({ technologies, background }) => {
+const TechnologiesUsed: React.FC<TechnologyProps> = ({
+  technologies,
+  background,
+}) => {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -28,9 +31,11 @@ const TechnologiesUsed: React.FC<TechnologyProps> = ({ technologies, background 
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
   };
-  console.log(technologies);
   return (
-    <section id="technology" className="flex flex-col lg:flex-row items-stretch justify-between max-w-8xl mx-auto gap-8 space-y-8 lg:space-y-0 lg:space-x-0 lg:px-12 md:px-8 px-6 py-12">
+    <section
+      id="technology"
+      className="flex flex-col lg:flex-row items-stretch justify-between max-w-8xl mx-auto gap-8 space-y-8 lg:space-y-0 lg:space-x-0 lg:px-12 md:px-8 px-6 py-12"
+    >
       <motion.div
         className="w-full flex-grow flex flex-col rounded-lg p-12 lg:w-[60%]"
         style={{ backgroundColor: background }}
@@ -55,7 +60,8 @@ const TechnologiesUsed: React.FC<TechnologyProps> = ({ technologies, background 
                   width={72}
                   height={72}
                 />
-                <span className="font-medium">{technology.text}</span> {/* Use item.text for the text content */}
+                <span className="font-medium">{technology.text}</span>{" "}
+                {/* Use item.text for the text content */}
               </motion.li>
             ))}
           </motion.ul>
