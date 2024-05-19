@@ -55,13 +55,12 @@ const TechnologiesUsed: React.FC<TechnologyProps> = ({
                 variants={itemVariants}
               >
                 <Image
-                  src={technology.img} // Use item.img for the image source
-                  alt={technology.text} // Use item.text for the alt text
+                  src={technology.img}
+                  alt={technology.text}
                   width={72}
                   height={72}
                 />
                 <span className="font-medium">{technology.text}</span>{" "}
-                {/* Use item.text for the text content */}
               </motion.li>
             ))}
           </motion.ul>

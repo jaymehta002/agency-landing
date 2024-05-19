@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
@@ -14,7 +14,11 @@ interface ChallengesProps {
   background: string;
 }
 
-const Challenges: React.FC<ChallengesProps> = ({ challenges, features, background }) => {
+const Challenges: React.FC<ChallengesProps> = ({
+  challenges,
+  features,
+  background,
+}) => {
   const slideInVariants = {
     hidden: { opacity: 0, x: -100 },
     visible: { opacity: 1, x: 0 },
@@ -26,7 +30,10 @@ const Challenges: React.FC<ChallengesProps> = ({ challenges, features, backgroun
   };
 
   return (
-    <section id="challenges" className="flex flex-col lg:flex-row items-stretch justify-between max-w-8xl mx-auto md:gap-8 gap-4 space-y-8 lg:space-y-0 lg:space-x-0 lg:px-12 md:px-8 px-6 py-12">
+    <section
+      id="challenges"
+      className="flex flex-col lg:flex-row items-stretch justify-between max-w-8xl mx-auto md:gap-8 gap-4 space-y-8 lg:space-y-0 lg:space-x-0 lg:px-12 md:px-8 px-6 py-12"
+    >
       <motion.div
         className="w-full flex-grow flex flex-col rounded-lg p-12 lg:w-[60%]"
         style={{ backgroundColor: background }}
