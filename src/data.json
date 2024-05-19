@@ -16,11 +16,26 @@
       "/images/clients/client4.png"
     ],
     "clients": [
-      "/images/clients/contract.png",
-      "/images/clients/boom.png",
-      "/images/clients/techland.png",
-      "/images/clients/wolf.png",
-      "/images/clients/tossbet.png"
+      {
+        "img": "/images/clients/contract.png",
+        "txt": "Contract"
+      },
+      {
+        "img": "/images/clients/boom.png",
+        "txt": "Boom"
+      },
+      {
+        "img": "/images/clients/techland.png",
+        "txt": "Techland"
+      },
+      {
+        "img": "/images/clients/wolf.png",
+        "txt": "Wolf"
+      },
+      {
+        "img": "/images/clients/tossbet.png",
+        "txt": "Tossbet"
+      }
     ]
   },
 

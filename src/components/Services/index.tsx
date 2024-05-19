@@ -5,13 +5,13 @@ import InfoBox from "./InfoBox";
 function Services() {
   return (
     <div className="mt-20">
-      <div>
-        <span className="bg-[url('/images/spring.png')] bg-no-repeat absolute md:left-1/4  h-20 w-24"></span>
-        <span className="bg-[url('/images/spiral.png')] bg-no-repeat absolute md:right-32 right-4 h-20 w-24"></span>
+      <div className="z-0">
+        <span className="bg-[url('/images/spring.png')] lg:block hidden bg-no-repeat absolute md:left-1/4  h-20 w-24"></span>
+        <span className="bg-[url('/images/spiral.png')] z-0 bg-no-repeat absolute md:right-32 right-4 h-20 w-24"></span>
       </div>
       <motion.section
         id="services"
-        className="flex flex-col items-center justify-center space-y-8 md:px-40 py-8 mt-8 w-full"
+        className="flex flex-col relative z-20 items-center justify-center space-y-8 md:px-40 py-8 mt-8 w-full"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
