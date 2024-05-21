@@ -7,9 +7,11 @@ interface TestimonialProps {
   name: string;
   message: string;
   background: string;
+  imageSrc1: string;
+  imageSrc2: string;
 }
 
-const Testimonial: React.FC<TestimonialProps> = ({ name, message, background }) => {
+const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, imageSrc1, imageSrc2 }) => {
   const imageVariants = {
     hidden: { opacity: 0, x: -100 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
@@ -39,7 +41,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background }) 
           variants={imageVariants}
         >
           <Image
-            src="/images/phone.png"
+            src={imageSrc1}
             alt="Safe and easy"
             width={300}
             height={650}
@@ -103,7 +105,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background }) 
         variants={imageVariants}
       >
         <Image
-          src="/images/testimonialphone.png"
+          src={imageSrc2}
           alt="Phones"
           width={300}
           height={649}
