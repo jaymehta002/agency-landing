@@ -9,6 +9,7 @@ import Image from "next/image";
 const ContactPage = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submissionError, setSubmissionError] = useState(false);
 
   const fadeInUp = {
     initial: { y: 60, opacity: 0 },
@@ -23,17 +24,20 @@ const ContactPage = () => {
   const handleSubmit = (e: any) => {
     e.preventDefault();
     emailjs.send(
-      'YOUR_SERVICE_ID',
-      'YOUR_TEMPLATE_ID',
+      'service_qmbgqc4',
+      'template_w0imwld',
       formData,
-      'YOUR_USER_ID'
+      'WV0UyRM-Jc5_LNDu0'
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
       setIsSubmitted(true);
+      setSubmissionError(false);
     })
     .catch((err) => {
       console.error('FAILED...', err);
+      setIsSubmitted(false);
+      setSubmissionError(true);
     });
   };
 
@@ -95,7 +99,8 @@ const ContactPage = () => {
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 w-full rounded-md" type="submit">
               Send
             </button>
-            {isSubmitted && <p className="text-green-500 mt-4">Message sent successfully!</p>}
+            {isSubmitted && !submissionError && <p className="text-green-500 mt-4">Message sent successfully!</p>}
+            {submissionError && <p className="text-red-500 mt-4">Failed to send message. Please try again later.</p>}
           </form>
         </div>
 

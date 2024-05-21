@@ -121,7 +121,7 @@ const HeroPage = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="w-full md:w-auto"
+            className="w-10/12 md:w-5/12"
           >
             <Image
               src="/images/hero/screen.png"
