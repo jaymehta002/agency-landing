@@ -42,6 +42,7 @@ const TechnologiesUsed: React.FC<TechnologyProps> = ({
         initial="hidden"
         whileInView="visible"
         variants={containerVariants}
+        viewport={{ once: true }}
       >
         <h1 className="text-4xl md:text-left text-center font-grifter font-bold text-black md:p-4">
           Technologies Used

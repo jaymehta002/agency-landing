@@ -38,6 +38,7 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
       style={{ backgroundColor: background }}
       initial="initial"
       whileInView="whileInView"
+      viewport={{ once: true }}
     >
       {/* Text and Heading Section */}
       <motion.div
@@ -45,6 +46,7 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
         variants={fadeInUp as any}
         initial="initial"
         whileInView="whileInView"
+        viewport={{ once: true }}
       >
         <h1 className="text-3xl lg:text-4xl font-grifter font-bold text-black">
           {title}
@@ -81,6 +83,7 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
         variants={fadeInUp as any}
         initial="initial"
         whileInView="whileInView"
+        viewport={{ once: true }}
       >
         <Image
           src={phoneImgSrc}

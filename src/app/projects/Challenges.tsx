@@ -39,6 +39,7 @@ const Challenges: React.FC<ChallengesProps> = ({
         style={{ backgroundColor: background }}
         initial="hidden"
         whileInView="visible"
+        viewport={{ once: true }}
         variants={slideInVariants}
         transition={{ duration: 0.5 }}
       >
@@ -64,6 +65,7 @@ const Challenges: React.FC<ChallengesProps> = ({
         style={{ backgroundColor: background }}
         initial="hidden"
         whileInView="visible"
+        viewport={{ once: true }}
         variants={zoomInVariants}
         transition={{ duration: 0.5 }}
       >

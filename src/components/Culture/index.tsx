@@ -14,6 +14,7 @@ const Culture = () => {
       className='flex md:flex-row flex-col lg:px-10 mt-20 justify-center overflow-hidden'
       initial='hidden'
       whileInView='visible'
+      viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
       {/* Left Side */}
