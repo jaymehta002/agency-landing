@@ -50,7 +50,7 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
           {title}
         </h1>
         <p className="text-base lg:text-lg text-black">{description}</p>
-        <div className="w-48 lg:w-auto">
+        <div className="lg:w-1/2 w-64 flex flex-row gap-4 ">
           {link && (
             <Link href={link}>
             <Image

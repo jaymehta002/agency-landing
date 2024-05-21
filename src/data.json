@@ -267,7 +267,7 @@
       "image": "/images/projects/project4/3.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "link": "https://www.google.com",
-      "appleStoreLink": "https://www.google.com",
+      "appleStoreLink": "",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
       "thumbnailImage": "/images/projects/project4/1.png",
