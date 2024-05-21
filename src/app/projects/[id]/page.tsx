@@ -56,9 +56,11 @@ export default function ProjectPage({ params }: PageProps) {
         googlePlayImgSrc="/images/googleplay.png"
         description={project.description}
         link={project.link}
+        appleStoreImgSrc="/images/applestore.png"
+        appleStoreLink={project.appleStoreLink}
         phoneImgSrc={project.thumbnailImage}
         background={data.projectTheme.backgroundHome}
-      />
+      /> 
       <SummaryPage
         clientName="Client"
         clientDescription={project.about}

@@ -11,6 +11,8 @@ interface FirstBlockProps {
   googlePlayImgSrc: string;
   phoneImgSrc: string;
   background: string;
+  appleStoreImgSrc: string;
+  appleStoreLink: string;
 }
 
 const FirstBlock: React.FC<FirstBlockProps> = ({
@@ -20,6 +22,8 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
   googlePlayImgSrc,
   phoneImgSrc,
   background,
+  appleStoreImgSrc,
+  appleStoreLink,
 }) => {
   const fadeInUp = {
     initial: { opacity: 0, y: 20 },
@@ -47,7 +51,8 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
         </h1>
         <p className="text-base lg:text-lg text-black">{description}</p>
         <div className="w-48 lg:w-auto">
-          <Link href={link}>
+          {link && (
+            <Link href={link}>
             <Image
               src={googlePlayImgSrc}
               alt="Google Play Store"
@@ -56,6 +61,18 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
               className="w-full"
             />
           </Link>
+          )}
+          {appleStoreLink && (
+            <Link href={appleStoreLink}>
+            <Image
+              src={appleStoreImgSrc}
+              alt="Apple Store"
+              width={192}
+              height={64}
+              className="w-full"
+            />
+          </Link>
+          )}
         </div>
       </motion.div>
       {/* Phone Image Section */}

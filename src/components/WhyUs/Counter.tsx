@@ -12,7 +12,7 @@ type CounterProps = {
 const Counter: React.FC<CounterProps> = ({ from, to, duration = 2 }) => {
   const [count, setCount] = useState(from);
   const ref = React.useRef(null);
-  const inView = useInView(ref, { once: false }); // Set once to false to trigger every time it's in view
+  const inView = useInView(ref, { once: true }); // Set once to false to trigger every time it's in view
 
   const fadeInUp = {
     initial: { opacity: 0 },
@@ -46,6 +46,7 @@ const Counter: React.FC<CounterProps> = ({ from, to, duration = 2 }) => {
       variants={fadeInUp}
       initial="initial"
       whileInView="animate"
+      viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
       {Math.floor(count)}
