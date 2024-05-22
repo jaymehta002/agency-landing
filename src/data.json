@@ -1,8 +1,8 @@
 {
-  "instagram": "link",
-  "twitter": "link",
-  "facebook": "link",
-  "linkedin": "link",
+  "instagram": "https://www.instagram.com/flutteryourway/",
+  "twitter": "https://x.com/flutteryourway",
+  "facebook": "https://www.facebook.com/profile.php?id=61559666020367",
+  "linkedin": "https://www.linkedin.com/company/flutter-your-way/",
   "youtube": "link",
   "hero": {
     "title": "The Hero",
@@ -18,11 +18,11 @@
     "clients": [
       {
         "img": "/images/clients/contract.png",
-        "txt": "Contract"
+        "txt": "ContractWise"
       },
       {
         "img": "/images/clients/boom.png",
-        "txt": "Boom Design"
+        "txt": "Boom Journal"
       },
       {
         "img": "/images/clients/techland.png",
@@ -30,7 +30,7 @@
       },
       {
         "img": "/images/clients/wolf.png",
-        "txt": "Wolf"
+        "txt": "Wolf Technologies"
       },
       {
         "img": "/images/clients/tossbet.png",

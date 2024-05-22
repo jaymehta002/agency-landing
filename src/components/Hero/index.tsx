@@ -42,7 +42,7 @@ const HeroPage = () => {
               // viewport={{ once: true }}
               className="text-4xl md:text-6xl z-100 max-w-full md:text-left text-center md:max-w-1/2 font-grifter font-bold text-gray-800 mb-4"
             >
-              Fluttering Your <br /> Ideas Into Digital Reality
+              Launch Your MVP In Days <br /> Ideas Into Digital Reality
             </motion.h1>
             <motion.div
               variants={fadeInUp}
