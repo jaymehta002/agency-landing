@@ -14,6 +14,7 @@ const Culture = () => {
       className='flex md:flex-row flex-col lg:px-10 mt-20 justify-center overflow-hidden'
       initial='hidden'
       whileInView='visible'
+      viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
       {/* Left Side */}
@@ -75,7 +76,7 @@ const Culture = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <Image height={1080} width={1080} src='/images/culture2.png' alt='Image 1' className='w-full object-cover' />
-              <h1 className='absolute inset-0 bottom-24 left-5 flex md:text-6xl text-4xl font-bold text-white items-end'>30K+</h1>
+              <h1 className='absolute inset-0 bottom-24 left-5 flex md:text-6xl text-4xl font-bold text-white items-end'>160K+</h1>
               <div className='absolute inset-5 flex items-end justify-start text-3xl text-white font-bold'>Instagram Followers </div>
             </motion.div>
             <motion.div 
@@ -86,7 +87,7 @@ const Culture = () => {
               transition={{ duration: 0.5, delay: 0.6 }}
             >
               <Image height={1080} width={1080} src='/images/culture3.png' alt='Image 2' className='w-full object-cover' />
-              <h1 className='absolute inset-0 bottom-24 left-5 flex md:text-6xl text-4xl font-bold text-white items-end'>40+</h1>
+              <h1 className='absolute inset-0 bottom-24 left-5 flex md:text-6xl text-4xl font-bold text-white items-end'>15+</h1>
               <div className='absolute inset-5 flex items-end justify-start text-3xl text-white font-bold'>Apps <br /> Deployed</div>
             </motion.div>
           </div>
@@ -99,7 +100,7 @@ const Culture = () => {
               transition={{ duration: 0.5, delay: 0.8 }}
             >
               <Image height={1080} width={1080} src='/images/culture4.png' alt='Image 3' className='w-full object-cover' />
-              <h1 className='absolute inset-0 bottom-24 left-5 flex md:text-6xl text-4xl font-bold text-white items-end'>45+</h1>
+              <h1 className='absolute inset-0 bottom-24 left-5 flex md:text-6xl text-4xl font-bold text-white items-end'>12+</h1>
               <div className='absolute inset-5 flex items-end justify-start text-3xl text-white font-bold'>Happy <br /> Clients</div>
             </motion.div>
             <motion.div 

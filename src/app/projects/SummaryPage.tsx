@@ -41,7 +41,7 @@ const SummaryPage: React.FC<SummaryPageProps> = ({
           style={{ backgroundColor: background }}
           initial="hidden"
           whileInView="visible"
-          // viewport={{ once: true }}
+          viewport={{ once: true }}
           variants={sectionVariants}
           transition={{ duration: 0.5 }}
         >
@@ -65,7 +65,7 @@ const SummaryPage: React.FC<SummaryPageProps> = ({
           style={{ backgroundColor: background }}
           initial="hidden"
           whileInView="visible"
-          // viewport={{ once: true }}
+          viewport={{ once: true }}
           variants={sectionVariants}
           transition={{ duration: 0.5 }}
         >
@@ -85,6 +85,7 @@ const SummaryPage: React.FC<SummaryPageProps> = ({
           initial="hidden"
           whileInView="visible"
           variants={sectionVariants}
+          viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-4xl py-4 px-2 font-grifter font-bold mb-2">
@@ -100,6 +101,7 @@ const SummaryPage: React.FC<SummaryPageProps> = ({
           initial="hidden"
           whileInView="visible"
           variants={imageVariants}
+          viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
           <div className="flex justify-center w-full h-full relative">

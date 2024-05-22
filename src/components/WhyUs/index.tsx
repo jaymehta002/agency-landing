@@ -26,13 +26,13 @@ const Index = () => {
           </div>
 
           <div className="text-center">
-          <h2 className="text-4xl font-grifter font-bold"><Counter from={0} to={20} duration={0.6}/>+</h2>
+          <h2 className="text-4xl font-grifter font-bold"><Counter from={0} to={12} duration={0.6}/>+</h2>
             <p>Happy Clients</p>
           </div>
 
           <div className="text-center">
-          <h2 className="text-4xl font-grifter font-bold"><Counter from={0} to={30} duration={0.6}/>K+</h2>
-            <p>Member Community</p>
+          <h2 className="text-4xl font-grifter font-bold"><Counter from={0} to={160} duration={0.6}/>K+</h2>
+            <p>Members Community</p>
           </div>
 
           <div className="text-center">

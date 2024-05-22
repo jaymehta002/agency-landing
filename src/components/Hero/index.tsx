@@ -32,23 +32,23 @@ const HeroPage = () => {
             variants={fadeInLeft}
             initial="hidden"
             whileInView="visible"
-            // viewport={{ once: true }}
+            viewport={{ once: true }}
             className="md:w-1/2 mb-8 md:mb-0"
           >
             <motion.h1
               variants={fadeInLeft}
               initial="hidden"
               whileInView="visible"
-              // viewport={{ once: true }}
+              viewport={{ once: true }}
               className="text-4xl md:text-6xl z-100 max-w-full md:text-left text-center md:max-w-1/2 font-grifter font-bold text-gray-800 mb-4"
             >
-              Launch Your MVP In Days <br /> Ideas Into Digital Reality
+              Launch Your App <br />In Days, Not Months.
             </motion.h1>
             <motion.div
               variants={fadeInUp}
               initial="hidden"
               whileInView="visible"
-              // viewport={{ once: true }}
+              viewport={{ once: true }}
             >
               <ul className="list-none items-center justify-center md:items-start md:justify-start text-base md:text-lg font-semibold flex flex-cols gap-4 md:gap-6">
                 <li>Innovate</li>
@@ -61,7 +61,7 @@ const HeroPage = () => {
               variants={fadeInUp}
               initial="hidden"
               whileInView="visible"
-              // viewport={{ once: true }}
+              viewport={{ once: true }}
               className="flex items-center justify-center md:items-start md:justify-start gap-4 mt-4 flex-wrap"
             >
               <button className="bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 w-48 rounded-md">
@@ -76,7 +76,7 @@ const HeroPage = () => {
               variants={fadeInUp}
               initial="hidden"
               whileInView="visible"
-              // viewport={{ once: true }}
+              viewport={{ once: true }}
               className="flex lg:gap-6 md:gap-4 gap-2 lg:justify-start items-center justify-center mt-4"
             >
               <div className="flex flex-row -space-x-4">
@@ -120,8 +120,8 @@ const HeroPage = () => {
             variants={fadeInRight}
             initial="hidden"
             whileInView="visible"
-            // viewport={{ once: true }}
-            className="w-full md:w-auto"
+            viewport={{ once: true }}
+            className="w-10/12 md:w-5/12"
           >
             <Image
               src="/images/hero/screen.png"

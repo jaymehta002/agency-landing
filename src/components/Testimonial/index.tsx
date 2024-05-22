@@ -38,7 +38,7 @@ const Index = () => {
         {data.testimonials.map((testimonial, index) => (
           <motion.div
             key={index}
-            className="bg-gray-100 p-6 rounded-lg"
+            className="bg-white p-6 rounded-lg"
             variants={fadeIn}
             initial="initial"
             whileInView="animate"
