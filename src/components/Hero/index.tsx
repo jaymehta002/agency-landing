@@ -81,37 +81,37 @@ const HeroPage = () => {
             >
               <div className="flex flex-row -space-x-4">
                 <Image
-                  src="/images/clients/client1.png"
+                  src="/images/testimonials/boomjournal_matt.jpg"
                   alt="Client 1"
                   width={1080}
                   height={1080}
-                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105 "
+                  className="w-12 h-12 rounded-full object-contain hover:z-10 hover:scale-105 border-white border-2"
                 />
                 <Image
-                  src="/images/clients/client2.png"
+                  src="/images/testimonials/ashish_techland.jpg"
                   alt="Client 2"
                   width={1080}
                   height={1080}
-                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105"
+                  className="w-12 h-12 rounded-full object-contain  hover:z-10 hover:scale-105 border-white border-2"
                 />
                 <Image
-                  src="/images/clients/client3.png"
+                  src="/images/testimonials/anurag_tossnbet.jpg"
                   alt="Client 3"
                   width={1080}
                   height={1080}
-                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105"
+                  className="w-12 h-12 rounded-full object-contain  hover:z-10 hover:scale-105 border-white border-2"
                 />
                 <Image
-                  src="/images/clients/client4.png"
+                  src="/images/testimonials/yato_wolfTech.png"
                   alt="Client 4"
                   width={1080}
                   height={1080}
-                  className="w-12 h-12 object-contain grayscale hover:z-10 hover:scale-105 "
+                  className="w-12 h-12 rounded-full mr-4 object-contain  hover:z-10 hover:scale-105 border-white border-2"
                 />
               </div>
               <div className=" flex lg:w-48 w-32 my-2">
                 <span className="text-gray-600 font-bold">
-                  Served 20 happy clients
+                  Served 12 happy clients
                 </span>
               </div>
             </motion.div>
@@ -139,3 +139,5 @@ const HeroPage = () => {
 };
 
 export default HeroPage;
+
+
