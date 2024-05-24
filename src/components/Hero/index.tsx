@@ -7,22 +7,39 @@ import { motion } from "framer-motion";
 const HeroPage = () => {
   const fadeInLeft = {
     hidden: { opacity: 0, x: -20 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeInOut" } },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.8, ease: "easeInOut" },
+    },
   };
 
   const fadeInRight = {
     hidden: { opacity: 0, x: 10 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeInOut" } },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.8, ease: "easeInOut" },
+    },
   };
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeInOut" } },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: "easeInOut" },
+    },
   };
 
   return (
     <>
-      <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{duration:0.5}} className="relative z-0">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className="relative z-0"
+      >
         <div className="hero-blob z-10"></div>
         <div className="md:hero-wave hidden z-10"></div>
       </motion.div>
@@ -42,7 +59,8 @@ const HeroPage = () => {
               viewport={{ once: true }}
               className="text-4xl md:text-6xl z-100 max-w-full md:text-left text-center md:max-w-1/2 font-grifter font-bold text-gray-800 mb-4"
             >
-              Launch Your App <br />In Days, Not Months.
+              Launch Your App <br />
+              In Days, Not Months.
             </motion.h1>
             <motion.div
               variants={fadeInUp}
@@ -64,12 +82,16 @@ const HeroPage = () => {
               viewport={{ once: true }}
               className="flex items-center justify-center md:items-start md:justify-start gap-4 mt-4 flex-wrap"
             >
-              <button className="bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 w-48 rounded-md">
-                Book Free Consultation
-              </button>
-              <button className="border-2 border-blue-200 hover:bg-gray-400 text-sm text-gray-800 w-48 py-2 px-8 rounded-md">
-                Learn More
-              </button>
+              <a href="#contact">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 w-48 rounded-md">
+                  Book Free Consultation
+                </button>
+              </a>
+              <a href="#contact">
+                <button className="border-2 border-blue-200 hover:bg-gray-400 text-sm text-gray-800 w-48 py-2 px-8 rounded-md">
+                  Learn More
+                </button>
+              </a>
             </motion.div>
 
             <motion.div
@@ -80,35 +102,60 @@ const HeroPage = () => {
               className="flex lg:gap-6 md:gap-4 gap-2 lg:justify-start items-center justify-center mt-4"
             >
               <div className="flex flex-row -space-x-4">
-                <Image
-                  src="/images/testimonials/boomjournal_matt.jpg"
-                  alt="Client 1"
-                  width={1080}
-                  height={1080}
-                  className="w-12 h-12 rounded-full object-contain hover:z-10 hover:scale-105 border-white border-2"
-                />
-                <Image
-                  src="/images/testimonials/ashish_techland.jpg"
-                  alt="Client 2"
-                  width={1080}
-                  height={1080}
-                  className="w-12 h-12 rounded-full object-contain  hover:z-10 hover:scale-105 border-white border-2"
-                />
-                <Image
-                  src="/images/testimonials/anurag_tossnbet.jpg"
-                  alt="Client 3"
-                  width={1080}
-                  height={1080}
-                  className="w-12 h-12 rounded-full object-contain  hover:z-10 hover:scale-105 border-white border-2"
-                />
-                <Image
-                  src="/images/testimonials/yato_wolfTech.png"
-                  alt="Client 4"
-                  width={1080}
-                  height={1080}
-                  className="w-12 h-12 rounded-full mr-4 object-contain  hover:z-10 hover:scale-105 border-white border-2"
-                />
+                <div className="relative  hover:z-10 group">
+                  <Image
+                    src="/images/testimonials/boomjournal_matt.jpg"
+                    alt="Boom Journal"
+                    width={1080}
+                    height={1080}
+                    className="w-12 h-12 rounded-full object-contain hover:scale-105 border-white border-2"
+                  />
+                  <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-white text-black text-xs px-3 py-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Boom Journal
+                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1 w-2 h-2 bg-white rotate-45"></div>
+                  </div>
+                </div>
+                <div className="relative  hover:z-10 group">
+                  <Image
+                    src="/images/testimonials/ashish_techland.jpg"
+                    alt="Tech Land"
+                    width={1080}
+                    height={1080}
+                    className="w-12 h-12 rounded-full object-contain  hover:scale-105 border-white border-2"
+                  />
+                  <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-white text-black text-xs px-3 py-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Tech Land
+                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1 w-2 h-2 bg-white rotate-45"></div>
+                  </div>
+                </div>
+                <div className="relative  hover:z-10 group">
+                  <Image
+                    src="/images/testimonials/anurag_tossnbet.jpg"
+                    alt="Toss n Bet"
+                    width={1080}
+                    height={1080}
+                    className="w-12 h-12 rounded-full object-contain  hover:scale-105 border-white border-2"
+                  />
+                  <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-white text-black text-xs px-3 py-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Toss n Bet
+                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1 w-2 h-2 bg-white rotate-45"></div>
+                  </div>
+                </div>
+                <div className="relative  hover:z-10 group">
+                  <Image
+                    src="/images/testimonials/yato_wolfTech.png"
+                    alt="Wolf Tech"
+                    width={1080}
+                    height={1080}
+                    className="w-12 h-12 rounded-full mr-4 object-contain  hover:scale-105 border-white border-2"
+                  />
+                  <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-white text-black text-xs px-3 py-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Wolf Tech
+                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1 w-2 h-2 bg-white rotate-45"></div>
+                  </div>
+                </div>
               </div>
+
               <div className=" flex lg:w-48 w-32 my-2">
                 <span className="text-gray-600 font-bold">
                   Served 12 happy clients
@@ -139,5 +186,3 @@ const HeroPage = () => {
 };
 
 export default HeroPage;
-
-

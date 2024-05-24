@@ -38,16 +38,18 @@ const Index = () => {
         {data.testimonials.map((testimonial, index) => (
           <motion.div
             key={index}
-            className="bg-white p-6 rounded-lg"
+            className="bg-white p-6 rounded-lg flex flex-col justify-between"
             variants={fadeIn}
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <div className="text-4xl text-gray-400 mb-4">&#8220;</div>
-            <p className="text-lg mb-4">{testimonial.quote}</p>
-            <div className="flex items-center mb-4">
+            <div>
+              <div className="text-4xl text-gray-400 mb-4">&#8220;</div>
+              <p className="text-lg mb-4">{testimonial.quote}</p>
+            </div>
+            <div className="flex items-center mt-4">
               <Image
                 height={1080}
                 width={1080}

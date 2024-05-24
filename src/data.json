@@ -54,7 +54,7 @@
       "title": "CTO - TECHLAND",
       "image": "/images/testimonials/ashish_techland.jpg",
       "company": "Company",
-      "quote":"I had the pleasure of working closely with Flutter Your Way on the TechLand app. Their seamless integration of APIs and payment gateways contributed to advanced features. Their innovative mindset, commitment to quality, and effective communication make them an asset to any project."
+      "quote": "I had the pleasure of working closely with Flutter Your Way on the TechLand app. Their seamless integration of APIs and payment gateways contributed to advanced features. Their innovative mindset, commitment to quality, and effective communication make them an asset to any project."
     },
     {
       "id": 2,
@@ -72,7 +72,7 @@
       "company": "Company",
       "quote": "We’ve completed 3 projects with Flutter Your Way, and they’ve always delivered exceptional results. Their expertise, attention to detail, and excellent communication make them a top choice for app development. Highly recommend!"
     },
-    
+
     {
       "id": 5,
       "name": "Simranpreet Singh",
@@ -91,9 +91,10 @@
     }
   ],
 
-  "projectTheme":{
+  "projectTheme": {
     "backgroundHome": "#24B24C",
-    "backgroundRest": "#ACEBE2"
+    "backgroundRest": "#ACEBE2",
+    "projectCardColor": "#F5F5F5"
   },
 
   "projects": [
@@ -104,9 +105,14 @@
       "description": "App for biggest Tourist Tempo company of ladakh to manage their bookings and drivers.",
       "link": "https://www.google.com",
       "appleStoreLink": "https://www.google.com",
-      "about": 
-      "Ladakh Tempo Union - Biggest tourist tempo provider in ladakh.",
-      "roles": ["UI/UX Design", "Flutter App Development", "Backend Development","Admin Panel Development", "Deployement"],
+      "about": "Ladakh Tempo Union - Biggest tourist tempo provider in ladakh.",
+      "roles": [
+        "UI/UX Design",
+        "Flutter App Development",
+        "Backend Development",
+        "Admin Panel Development",
+        "Deployement"
+      ],
       "technologies": [
         {
           "img": "/images/projects/tech.png",
@@ -126,7 +132,7 @@
         },
         {
           "img": "/images/projects/tech.png",
-          "text": "AWS" 
+          "text": "AWS"
         },
         {
           "img": "/images/projects/tech.png",
@@ -141,7 +147,7 @@
       "footerImage": "/images/projects/project1/2.png",
       "testimonialImage": "/images/projects/project1/4.png",
       "challanges": [
-        { 
+        {
           "img": "/images/projects/challenge1.png",
           "text": "Scalability of the Booking System: Ensuring that the booking system can handle a large number of simultaneous users, especially during peak tourist seasons."
         },
@@ -168,12 +174,15 @@
           "img": "/images/projects/tick.png",
           "text": "Admin Panel: Comprehensive admin panel for managing bookings, drivers, and overall operations."
         },
-        
+
         {
           "img": "/images/projects/tick.png",
           "text": "Payment Integration: Seamless integration with various payment gateways for easy transactions."
         }
-      ]
+      ],
+      "backgroundHome": "#24B24C",
+      "backgroundRest": "#ACEBE2",
+      "projectCardColor": "#F5F5F5"
     },
     {
       "id": 4,
@@ -186,37 +195,37 @@
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
       "thumbnailImage": "/images/projects/project4/1.png",
       "footerImage": "/images/projects/project4/2.png",
-"testimonialImage": "/images/projects/project4/4.png",
-"technologies": [
-  {
-    "img": "/images/projects/tech.png",
-    "text": "Flutter"
-  },
-  {
-    "img": "/images/projects/tech.png",
-    "text": "Node.js"
-  },
-  {
-    "img": "/images/projects/tech.png",
-    "text": "Firebase"
-  },
-  {
-    "img": "/images/projects/tech.png",
-    "text": "MongoDB"
-  },
-  {
-    "img": "/images/projects/tech.png",
-    "text": "AWS" 
-  },
-  {
-    "img": "/images/projects/tech.png",
-    "text": "React.js"
-  },
-  {
-    "img": "/images/projects/tech.png",
-    "text": "Github"
-  }
-],
+      "testimonialImage": "/images/projects/project4/4.png",
+      "technologies": [
+        {
+          "img": "/images/projects/tech.png",
+          "text": "Flutter"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "Node.js"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "Firebase"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "MongoDB"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "AWS"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "React.js"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "Github"
+        }
+      ],
       "challanges": [
         {
           "img": "/images/projects/challenge1.png",
@@ -256,7 +265,10 @@
           "img": "/images/projects/tick.png",
           "text": "Favorites and Reorder: Enables users to save favorite restaurants and dishes for easy reordering."
         }
-      ]
+      ],
+      "backgroundHome": "#24B24C",
+      "backgroundRest": "#ACEBE2",
+      "projectCardColor": "#F5F5F5"
     },
     {
       "id": 2,
@@ -266,7 +278,12 @@
       "link": "https://play.google.com/store/apps/details?id=com.snsilos.techland",
       "appleStoreLink": "https://apps.apple.com/sg/app/techland/id6470038004",
       "about": "TechLand is a comprehensive AgroFinTech application that serves as a hub for agricultural investments and returns. We empower AgroFinTech solutions, providing easy access to investment and growth prospects. Keep track of your agricultural progress with Soil Sense's live, real-time farming updates. Additionally, explore the Organic Chef marketplace for 100% organic products. Become a part of our community, invest in sustainable and eco-friendly agriculture, and enjoy the benefits of your investments with TechLand.",
-      "roles": ["UI/UX Design", "Frontend Development", "Backend Development", "Prompt Engeneering"],
+      "roles": [
+        "UI/UX Design",
+        "Frontend Development",
+        "Backend Development",
+        "Prompt Engeneering"
+      ],
       "technologies": [
         {
           "img": "/images/projects/tech.png",
@@ -290,7 +307,7 @@
         },
         {
           "img": "/images/projects/tech.png",
-          "text": "AWS" 
+          "text": "AWS"
         },
         {
           "img": "/images/projects/tech.png",
@@ -303,7 +320,7 @@
       ],
       "thumbnailImage": "/images/projects/project2/1.png",
       "footerImage": "/images/projects/project2/2.png",
-"testimonialImage": "/images/projects/project2/4.png",
+      "testimonialImage": "/images/projects/project2/4.png",
       "challanges": [
         {
           "img": "/images/projects/challenge1.png",
@@ -339,17 +356,25 @@
           "img": "/images/projects/tick.png",
           "text": "Community Features: Enables users to join a community of investors and farmers for sharing knowledge and experiences."
         }
-      ]
+      ],
+      "backgroundHome": "#24B24C",
+      "backgroundRest": "#ACEBE2",
+      "projectCardColor": "#F5F5F5"
     },
     {
       "id": 3,
       "title": "ContractWise",
       "image": "/images/projects/project3/3.png",
       "description": "Contract Wise enables small business owners to create accurate work contracts in minutes. ",
-      "link": "https://contractwise.app/",    
+      "link": "https://contractwise.app/",
       "appleStoreLink": "",
       "about": "Contract Wise enables freelancers and small business owners to create accurate and tailored work contracts in minutes. ",
-      "roles": ["UI/UX Design", "Frontend Development", "Backend Development", "Prompt Engeneering"],
+      "roles": [
+        "UI/UX Design",
+        "Frontend Development",
+        "Backend Development",
+        "Prompt Engeneering"
+      ],
       "technologies": [
         {
           "img": "/images/projects/tech.png",
@@ -373,7 +398,7 @@
         },
         {
           "img": "/images/projects/tech.png",
-          "text": "AWS" 
+          "text": "AWS"
         },
         {
           "img": "/images/projects/tech.png",
@@ -386,7 +411,7 @@
       ],
       "thumbnailImage": "/images/projects/project3/1.png",
       "footerImage": "/images/projects/project2/2.png",
-"testimonialImage": "/images/projects/project2/4.png",
+      "testimonialImage": "/images/projects/project2/4.png",
       "challanges": [
         {
           "img": "/images/projects/challenge1.png",
@@ -400,7 +425,6 @@
           "img": "/images/projects/challenge3.png",
           "text": "Data Security: Protecting sensitive user information and contract details from unauthorized access and breaches."
         }
-       
       ],
       "features": [
         {
@@ -419,8 +443,10 @@
           "img": "/images/projects/tick.png",
           "text": "Document Management: Allows users to store, manage, and retrieve contracts efficiently."
         }
-      ]
+      ],
+      "backgroundHome": "#24B24C",
+      "backgroundRest": "#ACEBE2",
+      "projectCardColor": "#F5F5F5"
     }
-  
   ]
 }
