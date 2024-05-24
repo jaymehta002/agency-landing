@@ -110,15 +110,31 @@
       "technologies": [
         {
           "img": "/images/projects/tech.png",
-          "text": "tech"
+          "text": "Flutter"
         },
         {
           "img": "/images/projects/tech.png",
-          "text": "tech"
+          "text": "Node.js"
         },
         {
           "img": "/images/projects/tech.png",
-          "text": "tech"
+          "text": "Firebase"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "MongoDB"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "AWS" 
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "React.js"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "Github"
         }
       ],
       "thumbnailImage": "/images/projects/project1/1.png",
@@ -127,53 +143,162 @@
       "challanges": [
         { 
           "img": "/images/projects/challenge1.png",
-          "text": "challenge 1"
+          "text": "Scalability of the Booking System: Ensuring that the booking system can handle a large number of simultaneous users, especially during peak tourist seasons."
         },
         {
           "img": "/images/projects/challenge2.png",
-          "text": "challenge 2"
+          "text": "Driver Management: Developing an efficient way to track and manage drivers, including their schedules, routes, and availability."
         },
         {
           "img": "/images/projects/challenge3.png",
-          "text": "challenge 3"
+          "text": "User Experience: Designing an intuitive UI/UX for users who may not be tech-savvy, including easy navigation and multilingual support."
         }
       ],
       "features": [
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 1"
+          "text": "Real-time Booking: Allows users to book tempos in real-time and receive instant confirmations."
         },
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 2"
+          "text": "Driver Tracking: Enables tracking of driver location and status in real-time."
+        },
+
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Admin Panel: Comprehensive admin panel for managing bookings, drivers, and overall operations."
+        },
+        
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Payment Integration: Seamless integration with various payment gateways for easy transactions."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Food Mama",
+      "image": "/images/projects/project4/3.png",
+      "description": "The best food delivery app in town, and enjoy delicious meals from your favorite restaurants.",
+      "link": "https://www.google.com",
+      "appleStoreLink": "",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
+      "thumbnailImage": "/images/projects/project4/1.png",
+      "footerImage": "/images/projects/project4/2.png",
+"testimonialImage": "/images/projects/project4/4.png",
+"technologies": [
+  {
+    "img": "/images/projects/tech.png",
+    "text": "Flutter"
+  },
+  {
+    "img": "/images/projects/tech.png",
+    "text": "Node.js"
+  },
+  {
+    "img": "/images/projects/tech.png",
+    "text": "Firebase"
+  },
+  {
+    "img": "/images/projects/tech.png",
+    "text": "MongoDB"
+  },
+  {
+    "img": "/images/projects/tech.png",
+    "text": "AWS" 
+  },
+  {
+    "img": "/images/projects/tech.png",
+    "text": "React.js"
+  },
+  {
+    "img": "/images/projects/tech.png",
+    "text": "Github"
+  }
+],
+      "challanges": [
+        {
+          "img": "/images/projects/challenge1.png",
+          "text": "Logistics Management: Coordinating with multiple restaurants and delivery personnel to ensure timely delivery of orders."
+        },
+        {
+          "img": "/images/projects/challenge2.png",
+          "text": "User Retention: Implementing features and promotions to retain users in a competitive market."
+        },
+        {
+          "img": "/images/projects/challenge3.png",
+          "text": "Integration with POS Systems: Integrating seamlessly with various restaurant point-of-sale systems."
+        },
+        {
+          "img": "/images/projects/challenge3.png",
+          "text": "Scalability of the Platform: Ensuring the app can handle high traffic volumes during peak meal times."
+        }
+      ],
+      "features": [
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Real-time Order Tracking: Allows users to track their orders in real-time from preparation to delivery."
         },
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 3"
+          "text": "Restaurant Reviews and Ratings: Provides reviews and ratings for restaurants to help users make informed choices."
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Multiple Payment Options: Supports various payment methods, including credit/debit cards, mobile wallets, and cash on delivery."
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Promotions and Discounts: Offers promotions and discount codes to attract and retain customers."
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Favorites and Reorder: Enables users to save favorite restaurants and dishes for easy reordering."
         }
       ]
     },
     {
       "id": 2,
-      "title": "Project 2",
+      "title": "TechLand ",
       "image": "/images/projects/project2/3.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-      "link": "https://www.google.com",
-      "appleStoreLink": "https://www.google.com",
-      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-      "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
+      "description": "TechLand is a AgroFinTech application that serves as a hub for agricultural investments and returns.",
+      "link": "https://play.google.com/store/apps/details?id=com.snsilos.techland",
+      "appleStoreLink": "https://apps.apple.com/sg/app/techland/id6470038004",
+      "about": "TechLand is a comprehensive AgroFinTech application that serves as a hub for agricultural investments and returns. We empower AgroFinTech solutions, providing easy access to investment and growth prospects. Keep track of your agricultural progress with Soil Sense's live, real-time farming updates. Additionally, explore the Organic Chef marketplace for 100% organic products. Become a part of our community, invest in sustainable and eco-friendly agriculture, and enjoy the benefits of your investments with TechLand.",
+      "roles": ["UI/UX Design", "Frontend Development", "Backend Development", "Prompt Engeneering"],
       "technologies": [
         {
           "img": "/images/projects/tech.png",
-          "text": "tech"
+          "text": "Flutter"
         },
         {
           "img": "/images/projects/tech.png",
-          "text": "tech"
+          "text": "Node.js"
         },
         {
           "img": "/images/projects/tech.png",
-          "text": "tech"
+          "text": "Figma"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "Firebase"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "MongoDB"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "AWS" 
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "React.js"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "Github"
         }
       ],
       "thumbnailImage": "/images/projects/project2/1.png",
@@ -182,53 +307,81 @@
       "challanges": [
         {
           "img": "/images/projects/challenge1.png",
-          "text": "challenge 1"
+          "text": "Integration with Financial Systems: Integrating with various financial systems for processing investments and returns securely and efficiently."
         },
         {
           "img": "/images/projects/challenge2.png",
-          "text": "challenge 2"
+          "text": "User Education: Educating users about AgroFinTech concepts and how to use the platform effectively."
         },
         {
           "img": "/images/projects/challenge3.png",
-          "text": "challenge 3"
+          "text": "Scalability: Ensuring the platform can scale to accommodate a growing user base and increasing data volume."
+        },
+        {
+          "img": "/images/projects/challenge3.png",
+          "text": "Compliance: Navigating and complying with agricultural and financial regulations in different regions."
         }
       ],
       "features": [
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 1"
+          "text": "Investment Tracking: Allows users to track their agricultural investments in real-time."
         },
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 2"
+          "text": "Marketplace for Organic Products: Provides a marketplace for buying and selling 100% organic products."
         },
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 3"
+          "text": "Live Farming Updates: Offers real-time updates on farming activities and soil conditions."
+        },
+        {
+          "img": "/images/projects/tick.png",
+          "text": "Community Features: Enables users to join a community of investors and farmers for sharing knowledge and experiences."
         }
       ]
     },
     {
       "id": 3,
-      "title": "Project 3",
+      "title": "ContractWise",
       "image": "/images/projects/project3/3.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-      "link": "https://www.google.com",
-      "appleStoreLink": "https://www.google.com",
-      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-      "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
+      "description": "Contract Wise enables small business owners to create accurate work contracts in minutes. ",
+      "link": "https://contractwise.app/",    
+      "appleStoreLink": "",
+      "about": "Contract Wise enables freelancers and small business owners to create accurate and tailored work contracts in minutes. ",
+      "roles": ["UI/UX Design", "Frontend Development", "Backend Development", "Prompt Engeneering"],
       "technologies": [
         {
           "img": "/images/projects/tech.png",
-          "text": "tech"
+          "text": "Flutter"
         },
         {
           "img": "/images/projects/tech.png",
-          "text": "tech"
+          "text": "Node.js"
         },
         {
           "img": "/images/projects/tech.png",
-          "text": "tech"
+          "text": "Figma"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "Firebase"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "MongoDB"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "AWS" 
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "React.js"
+        },
+        {
+          "img": "/images/projects/tech.png",
+          "text": "Github"
         }
       ],
       "thumbnailImage": "/images/projects/project3/1.png",
@@ -237,86 +390,37 @@
       "challanges": [
         {
           "img": "/images/projects/challenge1.png",
-          "text": "challenge 1"
+          "text": "Legal Accuracy: Ensuring that the contracts generated are legally accurate and comply with relevant laws and regulations."
         },
         {
           "img": "/images/projects/challenge2.png",
-          "text": "challenge 2"
+          "text": "Customization Flexibility: Providing enough flexibility for users to customize contracts according to their specific needs while maintaining legal validity."
         },
         {
           "img": "/images/projects/challenge3.png",
-          "text": "challenge 3"
+          "text": "Data Security: Protecting sensitive user information and contract details from unauthorized access and breaches."
         }
+       
       ],
       "features": [
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 1"
+          "text": "Template Library: Offers a library of customizable contract templates for various business needs."
         },
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 2"
+          "text": "Legal Compliance Checks: Includes automated checks to ensure contracts comply with relevant laws."
         },
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 3"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Project 4",
-      "image": "/images/projects/project4/3.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-      "link": "https://www.google.com",
-      "appleStoreLink": "",
-      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
-      "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
-      "thumbnailImage": "/images/projects/project4/1.png",
-      "footerImage": "/images/projects/project4/2.png",
-"testimonialImage": "/images/projects/project4/4.png",
-      "technologies": [
-        {
-          "img": "/images/projects/tech.png",
-          "text": "tech"
-        },
-        {
-          "img": "/images/projects/tech.png",
-          "text": "tech"
-        },
-        {
-          "img": "/images/projects/tech.png",
-          "text": "tech"
-        }
-      ],
-      "challanges": [
-        {
-          "img": "/images/projects/challenge1.png",
-          "text": "challenge 1"
-        },
-        {
-          "img": "/images/projects/challenge2.png",
-          "text": "challenge 2"
-        },
-        {
-          "img": "/images/projects/challenge3.png",
-          "text": "challenge 3"
-        }
-      ],
-      "features": [
-        {
-          "img": "/images/projects/tick.png",
-          "text": "Feature 1"
+          "text": "E-signature Integration: Supports electronic signatures for easy and secure contract signing."
         },
         {
           "img": "/images/projects/tick.png",
-          "text": "Feature 2"
-        },
-        {
-          "img": "/images/projects/tick.png",
-          "text": "Feature 3"
+          "text": "Document Management: Allows users to store, manage, and retrieve contracts efficiently."
         }
       ]
     }
+  
   ]
 }
