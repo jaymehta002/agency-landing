@@ -11,7 +11,7 @@ const Index = () => {
   };
 
   return (
-    <div className="container mx-auto overflow-hidden lg:px-40 px-4 py-8">
+    <div className="container mx-auto overflow-hidden px-4 py-8 lg:px-20">
       <motion.h2
         variants={fadeIn}
         initial="initial"
@@ -28,17 +28,16 @@ const Index = () => {
         whileInView="animate"
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="text-lg font-semibold mb-4"
+        className="text-lg font-semibold mb-8"
       >
-        Here&#39;s a significant proof of our work, the testimonials, that we have received from our previous clients.
+        Here&#39;s a significant proof of our work, the testimonials, that we have
+        received from our previous clients.
       </motion.h3>
-
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Testimonial Boxes */}
         {data.testimonials.map((testimonial, index) => (
           <motion.div
             key={index}
-            className="bg-white p-6 rounded-lg flex flex-col justify-between"
+            className="bg-white p-6 rounded-lg flex flex-col justify-between shadow-md"
             variants={fadeIn}
             initial="initial"
             whileInView="animate"
