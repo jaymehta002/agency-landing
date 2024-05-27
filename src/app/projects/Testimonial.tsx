@@ -45,6 +45,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, im
             alt="Safe and easy"
             width={6400}
             height={4800}
+            className="h-96 w-auto"
           />
         </motion.div>
 
@@ -97,7 +98,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, im
       </div>
       {/* Left Block (only visible on large screens) */}
       <motion.div
-        className="hidden lg:flex flex-1 space-y-4 rounded-lg items-center justify-center p-4"
+        className="hidden lg:flex flex-1 space-y-4 rounded-lg items-center justify-center"
         style={{ backgroundColor: background }}
         initial="hidden"
         whileInView="visible"
@@ -109,7 +110,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, im
           alt="Phones"
           width={1400}
           height={1200}
-          className="h-[650px] w-[480px] object-contain"
+          className="w-full h-full object-cover"
         />
       </motion.div>
     </section>
