@@ -36,8 +36,8 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
       <p className=" text-base font-medium">{description}</p>
       <div className={`flex w-full rounded-xl mt-4 h-60 items-center justify-center`} style={{backgroundColor: projectCardColor}}>
         <Image
-          width={400}
-          height={200}
+          width={6400}
+          height={4800}
           src={imageUrl}
           alt="Descriptive visual"
         />

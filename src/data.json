@@ -185,7 +185,7 @@
       "projectCardColor": "#F5F5F5"
     },
     {
-      "id": 4,
+      "id": 2,
       "title": "Food Mama",
       "image": "/images/projects/project4/3.png",
       "description": "The best food delivery app in town, and enjoy delicious meals from your favorite restaurants.",
@@ -271,9 +271,9 @@
       "projectCardColor": "#F5F5F5"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "TechLand ",
-      "image": "/images/projects/project2/3.png",
+      "image": "/images/projects/project2/4.png",
       "description": "TechLand is a AgroFinTech application that serves as a hub for agricultural investments and returns.",
       "link": "https://play.google.com/store/apps/details?id=com.snsilos.techland",
       "appleStoreLink": "https://apps.apple.com/sg/app/techland/id6470038004",
@@ -362,7 +362,7 @@
       "projectCardColor": "#F5F5F5"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "ContractWise",
       "image": "/images/projects/project3/3.png",
       "description": "Contract Wise enables small business owners to create accurate work contracts in minutes. ",

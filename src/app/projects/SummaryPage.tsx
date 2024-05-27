@@ -106,8 +106,8 @@ const SummaryPage: React.FC<SummaryPageProps> = ({
         >
           <div className="flex justify-center w-full h-full relative">
             <Image
-              width={400}
-              height={300}
+              width={6400}
+              height={4800}
               src={projectImage}
               alt="Descriptive visual"
               className="-mb-8"

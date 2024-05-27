@@ -43,8 +43,8 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, im
           <Image
             src={imageSrc1}
             alt="Safe and easy"
-            width={300}
-            height={650}
+            width={6400}
+            height={4800}
           />
         </motion.div>
 
@@ -107,8 +107,8 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, im
         <Image
           src={imageSrc2}
           alt="Phones"
-          width={300}
-          height={649}
+          width={1400}
+          height={1200}
           className="h-[650px] w-[480px] object-contain"
         />
       </motion.div>

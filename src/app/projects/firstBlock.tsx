@@ -88,8 +88,8 @@ const FirstBlock: React.FC<FirstBlockProps> = ({
         <Image
           src={phoneImgSrc}
           alt="Phone Screenshot"
-          width={400}
-          height={800}
+          width={6400}
+          height={4800}
           className="w-full h-full max-w-md"
         />
       </motion.div>
