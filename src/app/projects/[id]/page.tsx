@@ -56,7 +56,7 @@ export default function ProjectPage({ params }: PageProps) {
         googlePlayImgSrc="/images/googleplay.png"
         description={project.description}
         link={project.link}
-        appleStoreImgSrc="/images/applestore.png "
+        appleStoreImgSrc="/images/applestore.png"
         appleStoreLink={project.appleStoreLink}
         phoneImgSrc={project.thumbnailImage}
         background={project.backgroundHome}
