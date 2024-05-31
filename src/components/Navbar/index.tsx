@@ -73,6 +73,7 @@ function Navbar() {
 
           {/* Button */}
           <div className="hidden lg:block">
+          <a href="#contact">
             <motion.button
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -81,6 +82,7 @@ function Navbar() {
             >
               Book Free Consultation
             </motion.button>
+            </a>
           </div>
 
           {/* Mobile Menu Toggle */}
@@ -180,6 +182,7 @@ function Navbar() {
           </a>
         </div>
         <div className=" pb-3 flex flex-col items-center justify-center">
+          <a href="#contact">
           <motion.button
             className="block w-11/12 bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded"
             whileHover={{ scale: 1.05 }}
@@ -187,6 +190,7 @@ function Navbar() {
           >
             Book Free Consultation
           </motion.button>
+          </a>
         </div>
       </motion.div>
     </motion.nav>

@@ -8,6 +8,7 @@ interface ProjectBoxProps {
   title: string;
   description: string;
   imageUrl: string;
+  projectCardColor: string;
 }
 
 const ProjectBox: React.FC<ProjectBoxProps> = ({
@@ -15,6 +16,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   title,
   description,
   imageUrl,
+  projectCardColor,
 }) => {
   return (
     <div className="bg-[#ACEBE2] p-8 w-full h-full flex flex-col justify-center items-start rounded-lg">
@@ -32,10 +34,10 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         
       </div>
       <p className=" text-base font-medium">{description}</p>
-      <div className="flex w-full h-60 items-center justify-center">
+      <div className={`flex w-full rounded-xl mt-4 h-60 items-center justify-center`} style={{backgroundColor: projectCardColor}}>
         <Image
-          width={355}
-          height={200}
+          width={6400}
+          height={4800}
           src={imageUrl}
           alt="Descriptive visual"
         />

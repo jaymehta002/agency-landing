@@ -26,6 +26,7 @@ const Projects: React.FC = () => {
                   imageUrl={project.image}
                   title={project.title}
                   description={project.description}
+                  projectCardColor={project.projectCardColor}
                 />
               </div>
             ))}
