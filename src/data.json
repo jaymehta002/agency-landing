@@ -178,15 +178,15 @@
     {
       "id": 4,
       "title": "Food Mama",
-      "image": "/images/projects/project4/3.png",
+      "image": "/images/projects/project3/3.png",
       "description": "The best food delivery app in town, and enjoy delicious meals from your favorite restaurants.",
       "link": "https://www.google.com",
       "appleStoreLink": "",
-      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget",
+      "about": "The best food delivery app in town, and enjoy delicious meals from your favorite restaurants.",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
-      "thumbnailImage": "/images/projects/project4/1.png",
-      "footerImage": "/images/projects/project4/2.png",
-"testimonialImage": "/images/projects/project4/4.png",
+      "thumbnailImage": "/images/projects/project3/1.png",
+      "footerImage": "/images/projects/project3/2.png",
+"testimonialImage": "/images/projects/project3/4.png",
 "technologies": [
   {
     "img": "/images/projects/tech.png",
@@ -344,7 +344,7 @@
     {
       "id": 3,
       "title": "ContractWise",
-      "image": "/images/projects/project3/3.png",
+      "image": "/images/projects/project4/3.png",
       "description": "Contract Wise enables small business owners to create accurate work contracts in minutes. ",
       "link": "https://contractwise.app/",    
       "appleStoreLink": "",
@@ -384,9 +384,9 @@
           "text": "Github"
         }
       ],
-      "thumbnailImage": "/images/projects/project3/1.png",
-      "footerImage": "/images/projects/project2/2.png",
-"testimonialImage": "/images/projects/project2/4.png",
+      "thumbnailImage": "/images/projects/project4/1.png",
+      "footerImage": "/images/projects/project4/2.png",
+"testimonialImage": "/images/projects/project4/4.png",
       "challanges": [
         {
           "img": "/images/projects/challenge1.png",
