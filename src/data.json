@@ -189,13 +189,13 @@
       "title": "Food Mama",
       "image": "/images/projects/project3/3.png",
       "description": "The best food delivery app in town, and enjoy delicious meals from your favorite restaurants.",
-      "link": "https://www.google.com",
+      "link": "",
       "appleStoreLink": "",
-      "about": "The best food delivery app in town, and enjoy delicious meals from your favorite restaurants.",
+      "about": "Introducing Food Mama: The Sustainable Food App\n\nFood Mama is a revolutionary mobile app that connects consumers with local restaurants and shops to reduce food waste and make sustainable eating affordable.\n\nHow it works:\n\n- Partner restaurants and shops list their surplus food, canceled orders, and near-expired products on the app at deeply discounted prices.\n- Users browse and purchase these items, helping to reduce food waste and support local businesses.\n- Orders can be picked up directly from the restaurants and shops, or delivered through our partner delivery services",
       "roles": ["UI/UX Design", "Frontend Development", "Backend Development"],
-      "thumbnailImage": "/images/projects/project4/1.png",
-      "footerImage": "/images/projects/project4/2.png",
-      "testimonialImage": "/images/projects/project4/4.png",
+      "thumbnailImage": "/images/projects/project3/1.png",
+      "footerImage": "/images/projects/project3/2.png",
+      "testimonialImage": "/images/projects/project3/4.png",
       "technologies": [
         {
           "img": "/images/projects/tech.png",
@@ -363,7 +363,7 @@
     },
     {
       "id": 4,
-      "title": "ContractWise",
+      "title": "Contract Wise",
       "image": "/images/projects/project4/3.png",
       "description": "Contract Wise enables small business owners to create accurate work contracts in minutes. ",
       "link": "https://contractwise.app/",
@@ -409,9 +409,9 @@
           "text": "Github"
         }
       ],
-      "thumbnailImage": "/images/projects/project3/1.png",
-      "footerImage": "/images/projects/project2/2.png",
-      "testimonialImage": "/images/projects/project2/4.png",
+      "thumbnailImage": "/images/projects/project4/1.png",
+      "footerImage": "/images/projects/project4/2.png",
+      "testimonialImage": "/images/projects/project4/4.png",
       "challanges": [
         {
           "img": "/images/projects/challenge1.png",
