@@ -47,7 +47,7 @@ export default function ProjectPage({ params }: PageProps) {
     notFound();
   }
 
-
+     
   return (
     <div className="bg-[#E7F8FC]">
       <Navbar />
