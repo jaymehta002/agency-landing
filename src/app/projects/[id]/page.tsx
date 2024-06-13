@@ -74,9 +74,10 @@ export default function ProjectPage({ params }: PageProps) {
 
       <TechnologiesUsed technologies={project.technologies} background={project.backgroundRest} />
       <Testimonial
-        name="Yato"
-        message="We have been working with this agency for a long, and these guys
-              have never let us down."
+        name={project.testimonial.name}
+        message={project.testimonial.quote}
+        position={project.testimonial.title}
+        image={project.testimonial.image}
         background={project.backgroundRest}
         imageSrc1={project.footerImage}
         imageSrc2={project.testimonialImage}

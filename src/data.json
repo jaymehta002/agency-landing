@@ -182,7 +182,14 @@
       ],
       "backgroundHome": "#24B24C",
       "backgroundRest": "#ACEBE2",
-      "projectCardColor": "#F5F5F5"
+      "projectCardColor": "#F5F5F5",
+      "testimonial" : {
+        "name": "Tashi",
+        "title": "CEO - Ladakh Tempo Union",
+        "image": "/images/testimonials/avatar.png",
+        "company": "Company",
+        "quote": "The team at Flutter Your Way did an excellent job developing our booking app. They were professional, responsive, and delivered a high-quality product on time. We are very satisfied with their work and would recommend them to anyone looking for a reliable app development team."
+      }
     },
     {
       "id": 2,
@@ -268,7 +275,14 @@
       ],
       "backgroundHome": "#24B24C",
       "backgroundRest": "#ACEBE2",
-      "projectCardColor": "#F5F5F5"
+      "projectCardColor": "#F5F5F5",
+      "testimonial" : {
+        "name": "Simranpreet Singh",
+        "title": "CEO - Food Mama",
+        "image": "/images/testimonials/simran_foodmama.png",
+        "company": "Company",
+        "quote": "The team is incredibly skilled and professional. They delivered our MVP on time and within budget. We appreciated their clear communication and dedication to our project’s success."
+      }
     },
     {
       "id": 3,
@@ -359,7 +373,14 @@
       ],
       "backgroundHome": "#24B24C",
       "backgroundRest": "#ACEBE2",
-      "projectCardColor": "#F5F5F5"
+      "projectCardColor": "#F5F5F5",
+      "testimonial" : {
+        "name": "Ashish Sharma",
+        "title": "CTO - TECHLAND",
+        "image": "/images/testimonials/ashish_techland.jpg",
+        "company": "Company",
+        "quote": "I had the pleasure of working closely with Flutter Your Way on the TechLand app. Their seamless integration of APIs and payment gateways contributed to advanced features. Their innovative mindset, commitment to quality, and effective communication make them an asset to any project."
+      }
     },
     {
       "id": 4,
@@ -446,7 +467,14 @@
       ],
       "backgroundHome": "#24B24C",
       "backgroundRest": "#ACEBE2",
-      "projectCardColor": "#F5F5F5"
+      "projectCardColor": "#F5F5F5",
+      "testimonial" : {
+        "name": "Matthew West",
+        "title": "CEO - Boom Journal (1m+ Followers)",
+        "image": "/images/testimonials/boomjournal_matt.jpg",
+        "company": "Company",
+        "quote": "I appreciate the hard work and dedication your team has done for this app. you guys delivered an outstanding product and made the process seamless."
+      }
     }
   ]
 }

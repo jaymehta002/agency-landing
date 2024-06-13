@@ -6,12 +6,14 @@ import { motion } from "framer-motion";
 interface TestimonialProps {
   name: string;
   message: string;
+  image: string;
+  position: string;
   background: string;
   imageSrc1: string;
   imageSrc2: string;
 }
 
-const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, imageSrc1, imageSrc2 }) => {
+const Testimonial: React.FC<TestimonialProps> = ({ name, message, image, position, background, imageSrc1, imageSrc2 }) => {
   const imageVariants = {
     hidden: { opacity: 0, x: -100 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
@@ -65,7 +67,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, im
             <p className="mb-2 font-medium text-lg p-4">{message}</p>
             <div className="flex items-center">
               <Image
-                src="/images/hug.png"
+                src={image}
                 alt="User"
                 width={40}
                 height={40}
@@ -73,9 +75,9 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, im
               />
               <div className="ml-2 p-2">
                 <p className="font-semibold">{name}</p>
-                <p className="text-sm text-gray-500">Location</p>
+                <p className="text-sm text-gray-500">{position}</p>
               </div>
-              <div className="flex mt-2">
+              {/* <div className="flex mt-2">
                 {[...Array(5)].map((_, i) => (
                   <motion.svg
                     key={i}
@@ -91,7 +93,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, message, background, im
                     <path d="M3.612 15.443c-.396.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.32-.158-.888.283-.95l4.898-.696 2.184-4.413c.183-.37.73-.37.914 0l2.184 4.413 4.898.696c.441.062.612.63.283.95l-3.523 3.356.83 4.73c.078.443-.35.79-.746.592L8 13.187l-4.389 2.256z" />
                   </motion.svg>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.div>
